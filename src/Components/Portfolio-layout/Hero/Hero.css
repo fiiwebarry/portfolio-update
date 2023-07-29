@@ -1,0 +1,103 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .container{
+    margin:0 auto;
+    width: 90%;
+    max-width: 1216px;
+} 
+
+.hero-page-holder{
+ background-color:#030712;
+    
+}
+.hero-page{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap:70px;
+}
+
+.Header-text-icon{
+    display:flex;
+    gap:10px;
+    /* margin-top:10px; */
+}
+.Header-text-icon-layer{
+    display:flex;
+    gap:8px;
+    margin-top:15px;
+}
+.Header-text-icon-layer p{
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.Hero-image{
+    margin-top: 65px;
+    margin-bottom: 50px;
+    width: 417px;
+    height: 417px;
+}
+.Header-text-icon h2{
+    margin-top: 70px;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+
+}
+
+.Header-text p{
+    margin-top: 10px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    width:713px;
+    height:132px;
+    
+    
+}
+
+.emoji-icon{
+    margin-top: 65px;
+    width:50px;
+    height:50px;
+}
+.Hire-btn{
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    background: #1F2937;
+    box-shadow: 0px 8px 5px 0px #1F2937 inset;
+}
+.icon-tab{
+    margin-top: 20px;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    gap:10px;
+}

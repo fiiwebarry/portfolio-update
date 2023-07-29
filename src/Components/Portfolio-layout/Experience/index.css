@@ -1,0 +1,91 @@
+.container{
+    margin:0 auto;
+    width: 90%;
+    max-width: 1216px;
+}
+.experience-layout{
+
+    background-color: #111827;
+}
+.experience-btn-tab{
+    display:flex;
+    justify-content: center;
+    padding-top:50px;
+}
+.exp-text{
+    display:flex;
+    justify-content: center;
+}
+.exp-text p{
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.exp-btn{
+color: #FFF;
+text-align: center;
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 8px;
+background: #1F2937;
+box-shadow: 0px 8px 5px 0px rgba(3, 7, 18, 0.20) inset;
+padding: 10px;
+width:180px;
+}
+.experience-text-tab{
+    width: 1216px;
+    height: 256px;
+    border-radius: 10px;
+    background: #1F2937;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    display: flex;
+    gap:100px;
+}
+.text-lead{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding:20px;
+}
+.text-lead-tab{
+    padding-top: 20px;
+    text-align: justify;
+}
+.text-lead-tab h2{
+    color: #FFF;
+    font-family: Open Sans;
+   font-size: 20px;
+   font-style: normal;
+    font-weight: 700;
+   line-height: normal;
+}
+.text-lead-tab h3{
+    color: #FFF;
+    font-family: Open Sans;
+   font-size: 20px;
+   font-style: normal;
+    font-weight: 400;
+   line-height: normal;
+   padding-top: 10px;
+}
+.text-lead-tab ul{
+color: #FFF;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 10px;
+}
