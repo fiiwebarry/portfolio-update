@@ -1,11 +1,11 @@
 .container{
     margin:0 auto;
-    width: 90%;
-    max-width: 1216px;
+    width: 100%;
 }
 .experience-layout{
 
     background-color: #111827;
+    height: 844px;
 }
 .experience-btn-tab{
     display:flex;
