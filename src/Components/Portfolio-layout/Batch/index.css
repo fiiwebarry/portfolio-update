@@ -1,7 +1,9 @@
 
 .skills-set-tab{
 
-    background-color: #030712;
+    /* background-color: #030712;  */
+     background-color: #ffff;
+    /* background-color: #111827; */
 }
 .skills-btn{
  display: flex;
@@ -21,7 +23,7 @@
     margin-bottom: 5px;
 }
 .skills-tab h3{
-    color: #FFF;
+    color: #1F2937;
     font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
@@ -34,11 +36,12 @@
 }
 .btn-tab{
     border-radius: 8px;
-    background: #1F2937;
+    background: #E5E7EB;
+    border:#E5E7EB;
     box-shadow: 0px 8px 5px 0px rgba(3, 7, 18, 0.20) inset;
     width: 180px;
     padding: 10px;
-    color: #FFF;
+    color: black;
     text-align: center;
     font-family: Open Sans;
     font-size: 24px;

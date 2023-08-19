@@ -1,0 +1,76 @@
+:root{
+--primary-light:#F9FAFB;
+--secondary-light: #FFF;
+--primary-dark: #1F2937;
+--secondary-dark: #030712;
+}
+.darkView{
+  --primary-dark: #1F2937;
+--secondary-dark: #030712;
+}
+
+.lightView{
+  --primary-light:#F9FAFB;
+  --secondary-light: #FFF;
+
+}
+
+nav {
+    position: relative;
+    background-color:var(--primary-light);
+    padding: 20px;
+    height: auto;
+
+  }
+
+  .container{
+    margin:0 auto;
+    width: 90%;
+    max-width: 1216px;
+}
+  .Navbar-text{
+    width:14px;
+  }
+  .Nav-header{
+    width:10px;
+    color: var(--primary-dark);
+    padding: 20px;
+   font-family: Calluna;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+  }
+  
+   nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #1F2937;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .moon-icon{
+    width:35px;
+    height:35px;
+    cursor: pointer;
+  }
+  .sun-icon{
+    width:35px;
+    height:35px;
+    cursor: pointer;
+  }

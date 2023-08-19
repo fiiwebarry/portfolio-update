@@ -1,7 +1,7 @@
 import Icon from "/src/Assets/Icons/emoji.png";
-import twitter from "/src/Assets/Icons/twitter.svg";
-import github from "/src/Assets/Icons/github.svg";
-import linkedin from "/src/Assets/Icons/linkedin.svg";
+import twitter from "/src/Assets/Icons/Twitter.png";
+import github from "/src/Assets/Icons/Github.png";
+import linkedin from "/src/Assets/Icons/Linkedin.png";
 import Bulletpoint from "/src/Assets/Icons/Bullet.svg";
 import Img from "/src/Assets/Images/Hero-Image.png";
 import "./Hero.css"
