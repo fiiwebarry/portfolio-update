@@ -1,0 +1,90 @@
+.testimonials{
+    height: 776px;
+    background-color: #F9F9F9;
+    margin:0 auto;
+    width: 100%;
+    max-width: 1440px;
+}
+.testimonials-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  .testimonials-btn {
+    color: #fff;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: #1F2937;
+    box-shadow: 0px 8px 5px 0px rgba(3, 7, 18, 0.20) inset; 
+    padding: 10px;
+    width: 197px;
+  }
+  .testimonials-text {
+    display: flex;
+    justify-content: center;
+  }
+  .testimonials-p {
+    color: #fff;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .testimony{
+    display: flex;
+    gap: 26px;
+    margin: 0;
+    padding: 0;
+    margin-left: 70px;
+    margin-right: 105px;
+  }
+  .testimony-box{
+    width: 394px;
+    height: 452px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));  
+    border-radius: 20px;
+    background: #1F2937; 
+  }
+  .testimony-img{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-left: 172px;
+    margin-right: 172px;
+    margin-top: 35px;
+  }
+  .testimony-text{
+    width: 320px;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 62px;
+    margin-left: 37px;
+    margin-right: 37px; 
+    margin-bottom: 29px; 
+  }
+  .testimony-span{
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-left: 160px;
+  }
