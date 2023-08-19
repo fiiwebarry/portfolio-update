@@ -1,4 +1,7 @@
 import './index.css'
+import icon from "/src/Assets/Icons/weDance.png";
+import icon2 from "/src/Assets/Icons/ihealth.png";
+import icon3 from "/src/Assets/Icons/kodecamp.jpg";
 
 const Experience = () => {
 
@@ -6,20 +9,52 @@ const Experience = () => {
         <div className="experience-layout">
 
             <div className="experience-btn-tab">
-                <button className='exp-btn'>Experience</button>
+                <button className='exp-btn'>DOWNLOAD CV</button>
 
             </div>
-            <div className="exp-text">
-                <p>Some of the noteworthy experiences:</p>
-            </div>
+           
 
             <div className="container">
                 <div className="experience-text-tab">
-                    <div className="tab-header">
-                        <h3 className='text-lead'>KODECAMP</h3>
+                    <div className='tab-header'>
+                        <img className='ihealth-icon' src={icon2} alt="" />
+                        <h2 className="text-head"> PRINCIPAL FRONT-END ENGINEER </h2>
+
                     </div>
+                    <div className='text-lead-tab'>
+                        <h2>Framework: React.Js  </h2>
+                        <h3>Key Qualification & Responsibilities</h3>
+                        <ul>
+                            <li>Developed and maintained responsive websites using HTML, CSS, and JavaScript.</li>
+                            <li>Collaborated with designers and back-end developers to implement website features and functionality</li>
+                            <li>Conducting thorough testing and debugging to ensure cross-browser compatibility and optimal performance. </li>
+                            <li>Optimized website performance through efficient coding practices and optimization techniques.</li>
+                            <li>Worked closely with clients to understand their requirements and provide technical guidance.</li>
+                            <li>Implemented SEO best practices to improve website visibility and search engine</li>
+
+
+
+                        </ul>
+                    </div>
+                    <div>
+
+                    </div>
+                
+                </div>
+            </div>
+
+            {/* <div className="container">
+                <div className="experience-text-tab">
+                    <div className="tab-header">
+                        <div className="flex-icon">
+                            <img className='kodecamp-icon' src={icon3} alt="" />
+                            <h3 className='text-lead'>KODECAMP</h3>
+                        </div>
+                        <h2 className="text-head">FRONT-END DEVELOPER  </h2>
+                    </div>
+
                     <div className="text-lead-tab">
-                        <h2>FRONT-END DEVELOPER  </h2>
+
                         <h3>Framework: React.J</h3>
                         <h3>Key Responsibilities</h3>
                         <ul>
@@ -37,40 +72,9 @@ const Experience = () => {
                     </div>
 
                 </div>
-            </div><br /><br />
+            </div> */}
 
-            <div className="container">
-                <div className="experience-text-tab">
-                    <div className='tab-header'>
-                        <h3 className="text-lead">WEDANCE</h3>
-                    </div>
-                    <div className='text-lead-tab'>
-                        <h2>FRONT-END DEVELOPER </h2>
-                        <h3>Framework: Vue.Js  </h3>
-                        <p>Key Qualification & Responsibilities</p>
-                        <ul>
-                            <li>Developed and maintained responsive websites using HTML, CSS, and JavaScript.</li>
-                            <li>Collaborated with designers and back-end developers to implement website features and functionality</li>
-                            <li>Conducting thorough testing and debugging to ensure cross-browser compatibility and optimal performance. </li>
-                            <li>Optimized website performance through efficient coding practices and optimization techniques.</li>
-                            <li>Worked closely with clients to understand their requirements and provide technical guidance.</li>
-                            <li>Implemented SEO best practices to improve website visibility and search engine</li>
-
-
-
-                        </ul>
-                    </div>
-                    <div>
-
-                    </div>
-                    MARCH 2021-MARCH 2022
-                </div>
-            </div>
-
-
-
-
-
+           
 
 
 
