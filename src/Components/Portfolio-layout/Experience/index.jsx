@@ -2,6 +2,7 @@ import './index.css'
 import icon from "/src/Assets/Icons/weDance.png";
 import icon2 from "/src/Assets/Icons/ihealth.png";
 import icon3 from "/src/Assets/Icons/kodecamp.jpg";
+import icon4 from "/src/Assets/Icons/resume-icon.png";
 
 const Experience = () => {
 
@@ -9,10 +10,10 @@ const Experience = () => {
         <div className="experience-layout">
 
             <div className="experience-btn-tab">
-                <button className='exp-btn'>DOWNLOAD CV</button>
+                <button className='exp-btn'> <a href="/src/Assets/Brands/Fiiwe Barisanem's Resume.pdf"><img src={icon4} alt="" /> DOWNLOAD CV </a></button>
 
             </div>
-           
+
 
             <div className="container">
                 <div className="experience-text-tab">
@@ -39,7 +40,7 @@ const Experience = () => {
                     <div>
 
                     </div>
-                
+
                 </div>
             </div>
 
@@ -74,7 +75,7 @@ const Experience = () => {
                 </div>
             </div> */}
 
-           
+
 
 
 

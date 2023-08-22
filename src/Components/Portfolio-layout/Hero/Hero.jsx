@@ -1,7 +1,7 @@
 import Icon from "/src/Assets/Icons/emoji.png";
-import twitter from "/src/Assets/Icons/Twitter.png";
-import github from "/src/Assets/Icons/Github.png";
-import linkedin from "/src/Assets/Icons/Linkedin.png";
+import twitter from "/src/Assets/Icons/twitter-icon.png";
+import github from "/src/Assets/Icons/gittyhub.png";
+import linkedin from "/src/Assets/Icons/linkedin-icon.png"
 import Bulletpoint from "/src/Assets/Icons/Bullet.svg";
 import Img from "/src/Assets/Images/Hero-Image.png";
 import "./Hero.css"
@@ -31,9 +31,9 @@ const Hero = () => {
                             <p>Available for new projects</p>
                         </div>
                         <div className="icon-tab">
-                            <img className="github-icon" src={github} />
-                            <img className="twitter-icon" src={twitter} />
-                            <img className="linkedin-icon" src={linkedin} />
+                            <a href="https://github.com/fiiwebarry"><img className="github" src={github} /> </a>
+                            <a href=""><img className="twitter-icon" src={twitter} /></a>
+                            <a href="https://www.linkedin.com/in/barisanem-fiiwe-08659992/"><img className="linkedin-icon" src={linkedin} /></a>
 
                         </div>
                     </div>

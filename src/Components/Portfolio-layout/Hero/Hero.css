@@ -37,7 +37,7 @@
     color: #030712;
     text-align: center;
     font-family: Open Sans;
-    font-size: 20px;
+    font-size: 23px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -49,13 +49,15 @@
     margin-bottom: 50px;
     width: 417px;
     height: 417px;
+    border-radius: 40px;
+    border-color: #F9FAFB;
 }
 .Header-text-icon h2{
     margin-top: 70px;
     color: #030712;
     text-align: center;
     font-family: Open Sans;
-    font-size: 36px;
+    font-size: 56px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -78,30 +80,44 @@
 }
 
 .emoji-icon{
-    margin-top: 65px;
-    width:50px;
-    height:50px;
+    margin-top: 70px;
+    width:70px;
+    height:70px;
 }
 .Hire-btn{
-    color: #FFF;
+    
+    color: black;
     padding: 10px;
     text-align: center;
     font-family: Open Sans;
-    font-size: 16px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     border-radius: 8px;
-    background: #1F2937;
-    box-shadow: 0px 8px 5px 0px #1F2937 inset;
+    background:  #F9FAFB;
+    border-color: #F9FAFB;
+    box-shadow: 0px 8px 5px 0px #F9FAFB inset;
+    cursor: pointer;
+    
 }
 .icon-tab{
     margin-top: 20px;
     display: flex;
     border-radius:20px;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     gap:10px;
+    cursor:pointer;
+}
+.github{
+    width:40px;
+}
+.twitter-icon{
+    width:40px;
+}
+.linkedin-icon{
+    width:40px;
 }
 
 /* Tablet view */

@@ -1,12 +1,13 @@
 import icon from "/src/Assets/Icons/react.svg";
 import icon2 from "/src/Assets/Icons/javascript.svg";
 import icon3 from "/src/Assets/Icons/css.png";
-import icon4 from "/src/Assets/Icons/nextdotjs.png";
+// import icon4 from "/src/Assets/Icons/nextdotjs.png";
 import icon5 from "/src/Assets/Icons/figma.svg";
 import icon6 from "/src/Assets/Icons/tailwindcss.svg";
 import icon7 from "/src/Assets/Icons/git.png";
 import icon8 from "/src/Assets/Icons/bootstrap.svg";
-import icon9 from "/src/Assets/Icons/html5.svg";
+import icon9 from "/src/Assets/Icons/html5.png";
+import icon10 from "/src/Assets/Icons/Next.png";
 import "./index.css"
 const Batch = () => {
 
@@ -44,7 +45,7 @@ const Batch = () => {
 
                 </div>
                 <div>
-                    <img src={icon4} alt="" />
+                    <img src={icon10} alt="" />
                     <h3 className="text-tab">Next.Js</h3>
                 </div>
                 <div>

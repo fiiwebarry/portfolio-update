@@ -15,10 +15,13 @@
 
 }
 
+.Nav-holder{
+  background-color:var(--primary-light);
+}
 nav {
     position: relative;
-    background-color:var(--primary-light);
-    padding: 20px;
+   
+    /* padding: 20px; */
     height: auto;
 
   }
@@ -34,24 +37,21 @@ nav {
   .Nav-header{
     width:10px;
     color: var(--primary-dark);
-    padding: 20px;
+    padding-top: 40px;
    font-family: Calluna;
    font-size: 20px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;
   }
-  
+ 
    nav ul {
     list-style-type: none;
-    margin: 0;
+    margin-bottom: 40px;
     padding: 0;
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  li {
-    margin: 0 10px;
+    display: flex; 
+    justify-content: center;
+    gap:30px;
   }
   
   a {
@@ -65,12 +65,20 @@ nav {
     line-height: normal;
   }
   .moon-icon{
-    width:35px;
-    height:35px;
+    width:25px;
+    height:25px;
     cursor: pointer;
   }
   .sun-icon{
-    width:35px;
-    height:35px;
+    width:25px;
+    height:25px;
     cursor: pointer;
+  }
+  .nav-details{
+    display: flex;
+    justify-content: flex-end;
+    gap:20px;
+  }
+  button{
+    margin-bottom: 30px;
   }

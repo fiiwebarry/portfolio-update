@@ -1,6 +1,7 @@
-// import ".Components/Portfolio-layouts/About.css"
-// import Image from 'src/Assets/Images/Rectangle.png';
+
 import Img from "/src/Assets/Images/Rectangle.png";
+import img2 from "/src/Assets/Images/shade.png";
+import star from "/src/Assets/Icons/Star.png";
 import "./About.css"
 
 const About = () => {
@@ -18,7 +19,13 @@ const About = () => {
                 <div className="About-page-text">
 
                     <div className="About-image-tab">
-                        <img src={Img} alt="" />
+                        <div className="image-tab">
+                            <img src={Img} alt="" />
+                        </div>
+                        <div className="shade">
+                            <img src={img2} alt="" />
+                        </div>
+
                     </div>
                     <div className="About-text-tab">
                         <p>
@@ -26,19 +33,27 @@ const About = () => {
                             Front-end development proved to be the perfect fusion of creativity and technicality, allowing me to build bridges
                             between design and functionality. I'm fascinated by the ever-evolving landscape of web technologies,
                             and I embrace the challenge of staying up-to-date with the latest trends and best practices.
-                        </p>
-                        <h3> What Sets Me Apart</h3>
-                        <ul>
-                            <li>User-Centric Approach: I believe in putting the user at the center of every project.
-                                Understanding their needs and behaviors is key to crafting intuitive and delightful user experiences.</li>
-                            <li>
+                        </p><br />
+                        <h3> What Sets Me Apart</h3><br />
+                        <div className="text-sets">
+                            <img className="star" src={star} alt="" />
+                            <p>User-Centric Approach: I believe in putting the user at the center of every project.
+                                Understanding their needs and behaviors is key to crafting intuitive and delightful user experiences.</p>
+                        </div>
+
+                        <div className="text-sets">
+                            <p>
+                                <img className="star" src={star} alt="" />
                                 Responsive Design: In today's mobile-driven world, responsive design is not just a feature but a necessity.
                                 I take great care in ensuring that my creations look and function flawlessly across all devices and screen sizes.
-                            </li>
-                            <li>Code Craftsmanship: I take pride in writing well-structured, scalable, and maintainable code.
+                            </p>
+                        </div>
+                        <div className="text-sets">
+                            <img className="star" src={star} alt="" />
+                            <p>Code Craftsmanship: I take pride in writing well-structured, scalable, and maintainable code.
                                 Clean code is not just aesthetically pleasing;
-                                it contributes to better collaboration and faster development cycles.</li>
-                        </ul>
+                                it contributes to better collaboration and faster development cycles.</p>
+                        </div>
                     </div>
                 </div>
 
@@ -46,7 +61,7 @@ const About = () => {
             </div>
 
 
-        </div>
+        </div >
 
 
 

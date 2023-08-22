@@ -3,7 +3,7 @@
   width: 100%;
   height: 1100px;
   max-width: 1440px;
-  background-color: #F9F9F9;
+  background-color: #fff;
 }
 .work-button {
   display: flex;
@@ -19,7 +19,7 @@
   font-weight: 600;
   line-height: normal;
   border-radius: 8px;
-  background: #1f2937;
+  background: #F9FAFB;
   box-shadow: 0px 8px 5px 0px rgba(3, 7, 18, 0.2) inset;
   padding: 10px;
   width: 159px;
@@ -55,7 +55,7 @@
   width: 539px;
   height: 380px;
   flex-shrink: 0;
-  background: #1f2937;
+  background:  #F9FAFB;
   align-items: center;
   justify-content: center;
   border-radius: 10px 0px 0px 10px;
@@ -72,7 +72,7 @@
 .work-skills {
   width: 551px;
   height: 380px;
-  background: #111827;
+  background: #F9FAFB;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
     0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
   border-radius: 0px 10px 10px 0px;
@@ -97,7 +97,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background: #1f2937;
+  background:  #F9FAFB;
   box-shadow: 0px 8px 5px 0px rgba(31, 41, 55, 0.2) inset;
   margin-right: 8px;
 }
@@ -121,7 +121,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background: #1f2937;
+  background:  #F9FAFB;
   box-shadow: 0px 8px 5px 0px rgba(31, 41, 55, 0.2) inset;
   margin-right: 8px;
 }
@@ -145,7 +145,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background: #1f2937;
+  background:  #fff;
   box-shadow: 0px 8px 5px 0px rgba(31, 41, 55, 0.2) inset;
   margin-right: 8px;
 }
@@ -169,7 +169,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background: #1f2937;
+  background: #F9FAFB;
   box-shadow: 0px 8px 5px 0px rgba(31, 41, 55, 0.2) inset;
 }
 .html {
@@ -192,7 +192,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background: #1f2937;
+  background: #F9FAFB;
   box-shadow: 0px 8px 5px 0px rgba(31, 41, 55, 0.2) inset;
 }
 .bs {
@@ -215,7 +215,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background: #1f2937;
+  background: #F9FAFB;
   box-shadow: 0px 8px 5px 0px rgba(31, 41, 55, 0.2) inset;
 }
 .tc {
@@ -238,7 +238,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background: #1f2937;
+  background: #F9FAFB;
   box-shadow: 0px 8px 5px 0px rgba(31, 41, 55, 0.2) inset;
 }
 .git {
@@ -261,7 +261,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background: #1f2937;
+  background: #F9FAFB;
   box-shadow: 0px 8px 5px 0px rgba(31, 41, 55, 0.2) inset;
 }
 .css {
@@ -316,7 +316,7 @@
   align-items: center;
   gap: 10px;
   border-radius: 10px;
-  background: #1f2937;
+  background: #F9FAFB;
   box-shadow: 0px 8px 5px 0px rgba(31, 41, 55, 0.2) inset;
   margin-top: 58px;
 }
@@ -328,6 +328,6 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  background: #1f2937;
+  background: #F9FAFB;
   border: none;
 }
