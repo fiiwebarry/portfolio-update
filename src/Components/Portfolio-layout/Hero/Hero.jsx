@@ -3,6 +3,7 @@ import twitter from "/src/Assets/Icons/twitter-icon.png";
 import github from "/src/Assets/Icons/gittyhub.png";
 import linkedin from "/src/Assets/Icons/linkedin-icon.png"
 import Bulletpoint from "/src/Assets/Icons/Bullet.svg";
+import icon4 from "/src/Assets/Icons/resume-icon.png";
 import Img from "/src/Assets/Images/Hero-Image.png";
 import "./Hero.css"
 const Hero = () => {
@@ -25,6 +26,7 @@ const Hero = () => {
                                 appealing and responsive.
                             </p>
                             <button className="Hire-btn">Hire me</button>
+                            <button className='Hire-btn'> <a href="/src/Assets/Brands/Fiiwe Barisanem's Resume.pdf"> DOWNLOAD CV </a></button>
                         </div>
                         <div className="Header-text-icon-layer">
                             <img className="bullet-point" src={Bulletpoint} />

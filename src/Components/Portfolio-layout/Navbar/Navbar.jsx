@@ -5,28 +5,25 @@ import sun from "/src/Assets/Icons/Sun-icon.png";
 
 const Navbar = () => {
 
-    // export  const ThemeContext = createContext(null);
-
-
-    const [darkMode, setDarkMode] = useState("darkView");
 
 
 
-    const changeView = () => {
 
-        // SetToggleView((curr) => (curr === "darkView" ? "lightView" : "darkView"));
-        if (darkMode === "darkView") {
-            setDarkMode("light");
-        }
+    const [isDarkMood, SetDarkMood] = useState(false);
 
 
+    const ToogleMood = () => {
+        console.log("hello");
+        SetDarkMood(!isDarkMood);
 
     }
 
 
 
     return (
-        <nav className="Nav-holder" >
+
+
+        <nav className={`Navbar ${isDarkMood ? "darkView" : "lightView "}`}>
             <div className="container">
                 <div className="Icon-name">
                     <h2 className="Nav-header">GrittyBee</h2>
@@ -44,14 +41,16 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div>
-                        <button onClick={changeView} ><img className="moon-icon" src={moon} />
-
-                            <img className="sun-icon" src={sun} />
-
+                        <button onClick={ToogleMood} className={isDarkMood ? "darkView" : "lightView"}><img className="moon-icon" src={moon} />
                         </button>
+                        <button><img className="sun-icon" src={sun} />     </button>
+
                     </div>
 
+
+
                 </div>
+
 
 
 

@@ -6,22 +6,22 @@
 }
 .darkView{
   --primary-dark: #1F2937;
---secondary-dark: #030712;
+/* --secondary-dark: #030712; */
+--secondary-light: #FFF;
 }
 
 .lightView{
   --primary-light:#F9FAFB;
-  --secondary-light: #FFF;
+  /* --secondary-light: #FFF; */
+  --secondary-dark: #030712;
 
 }
 
-.Nav-holder{
-  background-color:var(--primary-light);
-}
+
 nav {
     position: relative;
-   
-    /* padding: 20px; */
+    /* background-color:var(--primary-light);
+    background-color:var(--primary-dark); */
     height: auto;
 
   }

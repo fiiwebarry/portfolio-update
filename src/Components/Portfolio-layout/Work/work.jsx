@@ -6,7 +6,7 @@ const work = () => {
   return (
     <div className="work">
       <div className="work-button">
-        <button className="work-btn">Work</button>
+        <button className="work-btn">Projects</button>
       </div>
 
       <div className="work-text">
