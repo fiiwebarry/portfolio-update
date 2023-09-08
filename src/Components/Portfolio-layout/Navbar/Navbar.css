@@ -5,26 +5,19 @@
 --secondary-dark: #030712;
 }
 .darkView{
-  --primary-dark: #1F2937;
-/* --secondary-dark: #030712; */
---secondary-light: #FFF;
-}
+  background-color:var(--primary-dark);
+  color:var(--secondary-light);
+ }
 
 .lightView{
-  --primary-light:#F9FAFB;
-  /* --secondary-light: #FFF; */
-  --secondary-dark: #030712;
-
+  background-color:var(--primary-light); 
+  color:var(--secondary-dark);
 }
 
 
 nav {
     position: relative;
-    /* background-color:var(--primary-light);
-    background-color:var(--primary-dark); */
-    height: auto;
-
-  }
+   }
 
   .container{
     margin:0 auto;
@@ -36,7 +29,7 @@ nav {
   }
   .Nav-header{
     width:10px;
-    color: var(--primary-dark);
+    /* color: var(--primary-dark); */
     padding-top: 40px;
    font-family: Calluna;
    font-size: 20px;
@@ -56,7 +49,7 @@ nav {
   
   a {
     text-decoration: none;
-    color: #1F2937;
+    /* color: #1F2937; */
     text-align: center;
     font-family: Open Sans;
     font-size: 16px;

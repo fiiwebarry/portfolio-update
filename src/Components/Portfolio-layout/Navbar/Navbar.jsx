@@ -13,7 +13,7 @@ const Navbar = () => {
 
 
     const ToogleMood = () => {
-        console.log("hello");
+
         SetDarkMood(!isDarkMood);
 
     }
@@ -23,7 +23,7 @@ const Navbar = () => {
     return (
 
 
-        <nav className={`Navbar ${isDarkMood ? "darkView" : "lightView "}`}>
+        <nav className={`Navbar ${isDarkMood ? " darkView" : "lightView "}`}>
             <div className="container">
                 <div className="Icon-name">
                     <h2 className="Nav-header">GrittyBee</h2>
@@ -43,7 +43,7 @@ const Navbar = () => {
                     <div>
                         <button onClick={ToogleMood} className={isDarkMood ? "darkView" : "lightView"}><img className="moon-icon" src={moon} />
                         </button>
-                        <button><img className="sun-icon" src={sun} />     </button>
+                        <button onClick={ToogleMood} className={isDarkMood ? "lightView" : "darkView"}><img className="sun-icon" src={sun} /></button>
 
                     </div>
 
