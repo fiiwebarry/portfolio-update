@@ -15,7 +15,7 @@ const Batch = () => {
         <div className="skills-set-tab">
 
             <div className="skills-btn">
-                <button className="btn-tab"> My Skill Set</button>
+                <button className="btn-tab">My Skill Set</button>
             </div>
 
             <div className="skills-tab">

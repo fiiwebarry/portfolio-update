@@ -101,6 +101,25 @@
     cursor: pointer;
     
 }
+.Hire-btn2{
+    
+    color:#F9FAFB;
+    padding: 10px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    background:   #F9FAFB;
+    border-color:  #F9FAFB;
+    box-shadow: 0px 8px 5px 0px  #F9FAFB inset;
+    cursor: pointer;
+    
+}
+
+
 .icon-tab{
     margin-top: 20px;
     display: flex;
@@ -129,11 +148,6 @@
 
 /*Mobile view  */
 @media only screen and (max-width:414px){
-
-    .hero-page-holder{
-        
-           
-       }
     .hero-page{
         display: flex;
         flex-direction: column;

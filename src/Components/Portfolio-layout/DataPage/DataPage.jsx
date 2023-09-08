@@ -15,3 +15,18 @@ export const contactData = [
     { id: 3, image: "/src/Assets/Icons/Twitter.png", title: "Twitter", detail: "fiiwebarry@yahoo.com", },
 
 ];
+
+export const projectData = [
+    { id: 1, image: "/src/Assets/Images/splitter.png", href: "#", },
+    { id: 2, image: "/src/Assets/Images/task-manager.png", href: "#", },
+    // { id: 3, image: "/src/Assets/Images/Rest-countries.PNG", href: "#", },
+    { id: 4, image: "/src/Assets/Images/AdviceApp.PNG", href: "#", },
+
+]
+export const projectData2 = [
+    { id: 1, image: "/src/Assets/Images/Rest-countries.PNG", href: "#", },
+    { id: 2, image: "/src/Assets/Images/finsweet.png", href: "#", },
+    // { id: 3, image: "/src/Assets/Images/Rest-countries.PNG", href: "#", },
+    { id: 4, image: "/src/Assets/Images/work-image.png", href: "#", },
+
+] 

@@ -26,7 +26,7 @@ const Hero = () => {
                                 appealing and responsive.
                             </p>
                             <button className="Hire-btn">Hire me</button>
-                            <button className='Hire-btn'> <a href="/src/Assets/Brands/Fiiwe Barisanem's Resume.pdf"> DOWNLOAD CV </a></button>
+                            <button className='Hire-btn2'><a href="/src/Assets/Brands/Fiiwe Barisanem's Resume.pdf"> DOWNLOAD CV </a></button>
                         </div>
                         <div className="Header-text-icon-layer">
                             <img className="bullet-point" src={Bulletpoint} />

@@ -36,18 +36,19 @@
     padding: 45px;
 }
 .about-btn{
-    border-radius: 8px;
-    border:#E5E7EB;
-    background: #E5E7EB;
-    box-shadow: 0px 8px 5px 0px rgba(3, 7, 18, 0.20) inset;
     color:black;
-    padding:15px;
+    padding: 10px;
     text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 25px;
+    font-family: Open Sans;
+    font-size: 22px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
+    border-radius: 8px;
+    background:   #F9FAFB;
+    border-color:  #F9FAFB;
+    box-shadow: 0px 8px 5px 0px  #F9FAFB inset;
+    cursor: pointer;
     margin: auto;
 }
 .About-text-tab{
@@ -63,9 +64,22 @@
     display: flex;
     gap:4px;
 }
+.about-me{
+    font-size: 34px;
+    color: orange;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
 .star{
     width:25px;
     height:25px;
+}
+span{
+    color: orange;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
 }
 
 /* Mobile view */

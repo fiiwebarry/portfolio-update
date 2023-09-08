@@ -1,0 +1,123 @@
+
+.container{
+
+  margin: 0 auto;
+  width: 98%;
+}
+.project{
+
+  background-color: #F9F9F9;
+   margin-bottom: 80px; 
+}
+
+.work-button {
+  /* display: flex;
+  justify-content: center;
+  padding-top: 50px;
+   */
+  color:black;
+    padding: 10px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    background:   #F9FAFB;
+    border-color:  #F9FAFB;
+    box-shadow: 0px 8px 5px 0px  #F9FAFB inset;
+    cursor: pointer;
+    margin: auto;
+   
+}
+.work-btn {
+
+    color:black;
+    padding: 10px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    background:   #F9FAFB;
+    border-color:  #F9FAFB;
+    box-shadow: 0px 8px 5px 0px  #F9FAFB inset;
+    cursor: pointer;
+    margin: auto;
+   
+   
+}
+.work-btn2{
+
+  color:black;
+  padding: 10px;
+  gap:30px;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 8px;
+  background:   #F9FAFB;
+  border-color:  #F9FAFB;
+  box-shadow: 0px 8px 5px 0px  #F9FAFB inset;
+  cursor: pointer;
+  margin: auto;
+ 
+ 
+}
+.project-link{
+  margin-left: 30px;
+  gap: 20px;
+}
+.work-p {
+  color: orange;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.work-container {
+  align-items: center;
+  justify-content: center;
+  /* margin: auto; */
+}
+.flex{
+  display: flex;
+   gap: 10px; */
+ /* flex-wrap: wrap;  */
+}
+
+.work-image {
+   width: 439px; 
+  /* height: 380px; */ 
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #fff;
+  padding-top: 15px; 
+}
+.pager{
+  margin-top: 20px;
+padding-bottom: 40px;
+}
+.work-img {
+  /* background: #fff !important; */
+  width: 400px; 
+  flex-shrink: 0;
+  border-radius: 10px;
+   /* margin-left: 40px; */
+  /* margin-top: 40px; */
+   /* padding-bottom: 10px; */
+}
+

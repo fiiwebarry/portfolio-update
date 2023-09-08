@@ -26,30 +26,33 @@ const Navbar = () => {
         <nav className={`Navbar ${isDarkMood ? " darkView" : "lightView "}`}>
             <div className="container">
                 <div className="Icon-name">
-                    <h2 className="Nav-header">GrittyBee</h2>
+                    <div> <h1 className="Nav-header">GrittyBee</h1></div>
+
+                    <div className="nav-details">
+                        <div>
+                            <ul>
+                                <li><a href="/">About</a></li>
+                                <li><a href="/about">Project</a></li>
+                                <li><a href="/contact">Testimonial</a></li>
+                                <li><a href="/contact">Contact</a></li>
+
+
+                            </ul>
+                        </div>
+
+                        <div className="box-tab">
+                            <button onClick={ToogleMood} className={isDarkMood ? "darkView" : "lightView"}><img className="moon-icon" src={moon} />
+                            </button>
+                            <button onClick={ToogleMood} className={isDarkMood ? "lightView" : "darkView"}><img className="sun-icon" src={sun} /></button>
+
+                        </div>
+
+
+
+                    </div>
                 </div>
 
-                <div className="nav-details">
-                    <div>
-                        <ul>
-                            <li><a href="/">About</a></li>
-                            <li><a href="/about">Project</a></li>
-                            <li><a href="/contact">Testimonial</a></li>
-                            <li><a href="/contact">Contact</a></li>
 
-
-                        </ul>
-                    </div>
-                    <div>
-                        <button onClick={ToogleMood} className={isDarkMood ? "darkView" : "lightView"}><img className="moon-icon" src={moon} />
-                        </button>
-                        <button onClick={ToogleMood} className={isDarkMood ? "lightView" : "darkView"}><img className="sun-icon" src={sun} /></button>
-
-                    </div>
-
-
-
-                </div>
 
 
 
