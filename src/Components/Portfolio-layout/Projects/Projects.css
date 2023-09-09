@@ -70,12 +70,16 @@
  
  
 }
+.contact-text{
+  text-align: center;
+  padding: 10px;
+}
 .project-link{
   margin-left: 30px;
   gap: 20px;
 }
 .work-p {
-  color: orange;
+  color: black;
   text-align: center;
   font-family: Open Sans;
   font-size: 30px;
@@ -112,12 +116,30 @@
 padding-bottom: 40px;
 }
 .work-img {
-  /* background: #fff !important; */
   width: 400px; 
   flex-shrink: 0;
   border-radius: 10px;
-   /* margin-left: 40px; */
-  /* margin-top: 40px; */
-   /* padding-bottom: 10px; */
+  
 }
 
+@media screen  and (max-width:820px){
+  .flex{
+    flex-wrap: wrap;
+}
+.work-image {
+  width: 250px; 
+ 
+}
+.work-img {
+  width: 200px; 
+}
+}
+
+@media screen  and (max-width:414px){
+  
+.flex {
+  flex-direction: column;
+  gap: 10px;
+  
+}
+}

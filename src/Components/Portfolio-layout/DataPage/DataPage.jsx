@@ -1,10 +1,10 @@
 
 
 export const data = [
-    { id: 1, image: "/src/Assets/Icons/lenever.jpg", text: "Lorem ipsum dolor sit amet consectetur. Viverra donec accumsan velit nulla sed sed pellentesque feugiat commodo.", name: "Ikechukwu Onuorah", Role: "iOS Engineer | SwifUI | UIKit | Flutter", },
-    { id: 1, image: "/src/Assets/Icons/lenever.jpg", text: "Lorem ipsum dolor sit amet consectetur. Viverra donec accumsan velit nulla sed sed pellentesque feugiat commodo.", name: "Ikechukwu Onuorah", Role: "iOS Engineer | SwifUI | UIKit | Flutter", },
-    { id: 1, image: "/src/Assets/Icons/lenever.jpg", text: "Lorem ipsum dolor sit amet consectetur. Viverra donec accumsan velit nulla sed sed pellentesque feugiat commodo.", name: "Ikechukwu Onuorah", Role: "iOS Engineer | SwifUI | UIKit | Flutter", },
-    // { id: 1, image: { lenever }, text: "Lorem ipsum dolor sit amet consectetur. Viverra donec accumsan velit nulla sed sed pellentesque feugiat commodo.", name: "Ikechukwu Onuorah", Role: "iOS Engineer | SwifUI | UIKit | Flutter", },
+    { id: 1, image: "/src/Assets/Icons/people-icon.jpg", text: "Lorem ipsum dolor sit amet consectetur. Viverra donec accumsan velit nulla sed sed pellentesque feugiat commodo.", name: "Ikechukwu Onuorah", Role: "iOS Engineer | SwifUI | UIKit | Flutter", },
+    { id: 1, image: "/src/Assets/Icons/people-icon.jpg", text: "Lorem ipsum dolor sit amet consectetur. Viverra donec accumsan velit nulla sed sed pellentesque feugiat commodo.", name: "Ikechukwu Onuorah", Role: "iOS Engineer | SwifUI | UIKit | Flutter", },
+    { id: 1, image: "/src/Assets/Icons/people-icon.jpg", text: "Lorem ipsum dolor sit amet consectetur. Viverra donec accumsan velit nulla sed sed pellentesque feugiat commodo.", name: "Ikechukwu Onuorah", Role: "iOS Engineer | SwifUI | UIKit | Flutter", },
+
 
 ];
 
@@ -19,14 +19,12 @@ export const contactData = [
 export const projectData = [
     { id: 1, image: "/src/Assets/Images/splitter.png", href: "#", },
     { id: 2, image: "/src/Assets/Images/task-manager.png", href: "#", },
-    // { id: 3, image: "/src/Assets/Images/Rest-countries.PNG", href: "#", },
     { id: 4, image: "/src/Assets/Images/AdviceApp.PNG", href: "#", },
 
 ]
 export const projectData2 = [
     { id: 1, image: "/src/Assets/Images/Rest-countries.PNG", href: "#", },
     { id: 2, image: "/src/Assets/Images/finsweet.png", href: "#", },
-    // { id: 3, image: "/src/Assets/Images/Rest-countries.PNG", href: "#", },
     { id: 4, image: "/src/Assets/Images/work-image.png", href: "#", },
 
 ] 

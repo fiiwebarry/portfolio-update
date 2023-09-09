@@ -81,3 +81,22 @@ nav {
   button{
     margin-bottom: 30px;
   }
+
+  @media screen  and (max-width:414px){
+    .flex-column{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul {
+      flex-direction: column; 
+      
+    }
+    .shade {
+      position: absolute;
+      top: 316px;
+      left: 18874px;
+      filter: blur(3px);
+      background: rgba(196, 196, 196, 0.20);
+  }
+}

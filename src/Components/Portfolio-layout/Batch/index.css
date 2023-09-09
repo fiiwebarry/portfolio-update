@@ -62,3 +62,20 @@ background-color: #ffff;
 .text-tab{
     margin-left: 10px;
 }
+
+@media screen  and (max-width:820px){
+    .skills-tab{
+      flex-wrap: wrap;
+        
+        gap:60px;
+        
+    }
+}
+@media screen  and (max-width:414px){
+    .skills-tab{
+        flex-direction: column;
+        
+        gap:60px;
+        
+    }
+}
