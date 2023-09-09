@@ -11,8 +11,8 @@ export const data = [
 
 export const contactData = [
     { id: 1, image: "/src/Assets/Icons/email.png", title: "Email", detail: "fiiwebarry@yahoo.com", },
-    { id: 2, image: "/src/Assets/Icons/whatsapp.png", title: "WhatsApp", detail: "fiiwebarry@yahoo.com", },
-    { id: 3, image: "/src/Assets/Icons/Twitter.png", title: "Twitter", detail: "fiiwebarry@yahoo.com", },
+    { id: 2, image: "/src/Assets/Icons/whatsapp.png", title: "WhatsApp", detail: "+2348136719957", },
+    { id: 3, image: "/src/Assets/Icons/twitter-icon.png", title: "Twitter", detail: "FIIWEBARRY9", },
 
 ];
 

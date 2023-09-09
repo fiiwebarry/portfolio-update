@@ -11,14 +11,26 @@
 
 }
 .contactMe-tab{
-width: 297px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 2px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    display: flex;
+    width: 397px;
+   padding: 20px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 25px;
+
+
+    /* width: 297px;
 display: flex;
 flex-direction: column;
 height: 202px; 
 flex-shrink: 0;
 border-radius: 20px;
 background: #FFF;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 2px 4px 0px rgba(0, 0, 0, 0.25) inset;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 2px 4px 0px rgba(0, 0, 0, 0.25) inset; */
 
 }
 .contact-tab-tab{
@@ -58,6 +70,33 @@ textarea{
     width:350px;
     border-radius: 10px;
     height: 200px;
+}
+.submit-btn{
+    color: #FFF;
+    padding: 10px;
+    border-radius: 20px;
+    background: #000;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+   text-align: center;
+   font-family: Open Sans;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.flex-tab-tab{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
+.title-tab{
+  color: #111827;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 @media screen  and (max-width:414px){

@@ -31,10 +31,10 @@ const Navbar = () => {
                     <div className="nav-details">
                         <div>
                             <ul>
-                                <li><a href="/">About</a></li>
+                                <li><a href="#About">About</a></li>
                                 <li><a href="/about">Project</a></li>
                                 <li><a href="/contact">Testimonial</a></li>
-                                <li><a href="/contact">Contact</a></li>
+                                <li><a href="#contact">Contact</a></li>
 
 
                             </ul>

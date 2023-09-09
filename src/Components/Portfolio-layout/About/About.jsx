@@ -7,7 +7,7 @@ import "./About.css"
 const About = () => {
 
     return (
-        <div className="About-page-holder">
+        <div id="About" className="About-page-holder">
 
             <div className="container">
 
