@@ -3,7 +3,6 @@ import twitter from "/src/Assets/Icons/twitter-icon.png";
 import github from "/src/Assets/Icons/gittyhub.png";
 import linkedin from "/src/Assets/Icons/linkedin-icon.png"
 import Bulletpoint from "/src/Assets/Icons/Bullet.svg";
-import icon4 from "/src/Assets/Icons/resume-icon.png";
 import Img from "/src/Assets/Images/Hero-Image.png";
 import "./Hero.css"
 const Hero = () => {
