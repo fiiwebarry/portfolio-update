@@ -150,9 +150,13 @@
 @media only screen and (max-width:414px){
     .hero-page{
         display: flex;
-        flex-direction: column;
+        flex-direction:column-reverse;
         gap:70px;
         width: 100%;
+    }
+    .hero-img{
+        width:350px;
+        margin-top: -30px;
     }
     .Header-text p{
         width: auto;
@@ -160,7 +164,27 @@
     }
     .Header-text-icon h2{
        
-        font-size: 26px;
+        font-size: 30px;
+    }
+    .emoji-icon {
+       
+        width: 40px;
+        height: 40px;
+    }
+    .Header-text-icon-layer {
+        display: flex;
+        gap: 8px;
+         margin-top: 2px;
+    }
+.Hire-btn {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+    .Header-text-icon {
+        display: flex;
+        gap: 10px;
+        margin-top: -180px;
     }
     .Hero-image{
         width: auto;

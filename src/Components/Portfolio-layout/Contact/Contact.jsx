@@ -30,7 +30,7 @@ const Contact = () => {
                                             <img className="flex-tab-tab" src={image} />
                                             <p className="flex-tab-tab title-tab">{title}</p>
                                         </div>
-                                        <p>{detail}</p>
+                                        <p className="details-tab">{detail}</p>
 
                                         <div className="flex">
                                             <p>Write Me</p>

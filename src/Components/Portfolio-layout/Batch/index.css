@@ -73,9 +73,6 @@ background-color: #ffff;
 }
 @media screen  and (max-width:414px){
     .skills-tab{
-        flex-direction: column;
-        
-        gap:60px;
-        
+        gap:20px; 
     }
 }

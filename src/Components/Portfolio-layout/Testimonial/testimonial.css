@@ -62,7 +62,7 @@
   .testimony-text{
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 10px;
     margin: auto;
     width: 320px;
     color: black;
@@ -101,4 +101,11 @@
       flex-direction: column;
       gap:20px;
     }
+    .testimony-box {
+      width: 100%;
+  }
+  .testimonials-p {
+    
+    font-size: 20px;
     }
+  }

@@ -29,7 +29,7 @@ const Navbar = () => {
                     <div> <h1 className="Nav-header">GrittyBee</h1></div>
 
                     <div className="nav-details">
-                        <div>
+                        <div className="drop-down">
                             <ul>
                                 <li><a href="#About">About</a></li>
                                 <li><a href="/about">Project</a></li>

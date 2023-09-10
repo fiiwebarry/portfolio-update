@@ -1,12 +1,13 @@
 
 
 export const data = [
-    { id: 1, image: "/src/Assets/Icons/people-icon.jpg", text: "Lorem ipsum dolor sit amet consectetur. Viverra donec accumsan velit nulla sed sed pellentesque feugiat commodo.", name: "Ikechukwu Onuorah", Role: "iOS Engineer | SwifUI | UIKit | Flutter", },
-    { id: 1, image: "/src/Assets/Icons/people-icon.jpg", text: "Lorem ipsum dolor sit amet consectetur. Viverra donec accumsan velit nulla sed sed pellentesque feugiat commodo.", name: "Ikechukwu Onuorah", Role: "iOS Engineer | SwifUI | UIKit | Flutter", },
+    { id: 1, image: "/src/Assets/Icons/people-icon.jpg", text: "Barisanem's commitment to work is excellent and inspiring.He exhibits a growth mindset and always improves on his skill set continuously. He is a highly valuable asset.", name: "Ikechukwu Onuorah", Role: "iOS Engineer | SwifUI | UIKit | Flutter", },
+    { id: 1, image: "/src/Assets/Icons/people-icon.jpg", text: "Barisanem is passionate about his work as a frontend developer. His detail-oriented design work and consistent work ethic is of great value to the workplace and to clients.", name: "Yuewu Zhou", Role: "Developer I at InductiveHealth Informatics" },
     { id: 1, image: "/src/Assets/Icons/people-icon.jpg", text: "Lorem ipsum dolor sit amet consectetur. Viverra donec accumsan velit nulla sed sed pellentesque feugiat commodo.", name: "Ikechukwu Onuorah", Role: "iOS Engineer | SwifUI | UIKit | Flutter", },
 
 
 ];
+
 
 
 export const contactData = [

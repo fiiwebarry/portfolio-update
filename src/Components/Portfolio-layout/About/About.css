@@ -88,20 +88,35 @@ span{
         display: flex;
         flex-direction: column;
         gap:100px;
+    }
+    .About-page-holder {
+        margin-top: 40px;
+        background-color: #F9F9F9;
+    }
         
-
-   
-        .shade {
+ .shade {
           position: absolute;
-          top: 1416px;
-          left: 24px;
+          top: 1016px;
+          left: -4px;
           filter: blur(3px);
           width:390px;
           background: rgba(196, 196, 196, 0.20);
       }
-      .image-tab img{
-        width:390px
-      }
+     
+      .image-tab img {
+        width: 365px;
     }
-    
+    .About-text-tab {
+        margin-top: -100px;
+        
+    }
+    .shade-img{
+        width:200px;
+    }
+    .about-me {
+        font-size: 28px;
+        color: orange;
+        
+    }
 }
+    

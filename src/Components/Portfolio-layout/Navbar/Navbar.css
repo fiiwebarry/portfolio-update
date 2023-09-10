@@ -45,7 +45,6 @@ nav {
  }
    nav ul {
     list-style-type: none;
-    /* margin-bottom: 40px; */
     padding: 0;
     display: flex; 
     justify-content: center;
@@ -83,15 +82,33 @@ nav {
   }
 
   @media screen  and (max-width:414px){
-    .flex-column{
-        display: flex;
-        flex-direction: column;
+    
+    .Nav-header{
+     font-size: 30px;
+     
     }
+    .Icon-name {
+      padding-top: 20px;
+  }
+  .nav-details {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 2px;
+  } 
+  
+  .box-tab {
+    margin-top: 5px;
+    height: 70px;
+}
+nav ul {
+  list-style-type:none;
+  padding: 0;
+  flex: none !important;
+  gap: 10px
+}
 
-    nav ul {
-      flex-direction: column; 
-      
-    }
     .shade {
       position: absolute;
       top: 316px;

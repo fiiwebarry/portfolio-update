@@ -23,7 +23,7 @@ const About = () => {
                             <img src={Img} alt="" />
                         </div>
                         <div className="shade">
-                            <img src={img2} alt="" />
+                            <img className="shade-img" src={img2} alt="" />
                         </div>
 
                     </div>
@@ -36,7 +36,7 @@ const About = () => {
                             I'm fascinated by the ever-evolving landscape of web technologies,
                             and I embrace the challenge of staying up-to-date with the latest trends and best practices.
                         </p>
-                        <h2 className="about-me"> What Sets Me Apart</h2>
+                        <h2 className="about-me"> What Sets Me Apart:</h2>
                         <div className="text-sets">
                             <img className="star" src={star} alt="" />
                             <p><span>User-Centric Approach:</span><br /> I believe in putting the user at the center of every project.

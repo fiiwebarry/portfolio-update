@@ -142,4 +142,11 @@ padding-bottom: 40px;
   gap: 10px;
   
 }
+.work-img {
+  width: 350px;
+}
+.work-image {
+  width: 370px;
+}
+
 }
