@@ -1,5 +1,5 @@
 import Icon from "/src/Assets/Icons/emoji.png";
-import twitter from "/src/Assets/Icons/twitter-icon.png";
+import twitter from "/src/Assets/Icons/twitterIcon.png";
 import github from "/src/Assets/Icons/gittyhub.png";
 import linkedin from "/src/Assets/Icons/linkedin-icon.png"
 import Bulletpoint from "/src/Assets/Icons/Bullet.svg";
