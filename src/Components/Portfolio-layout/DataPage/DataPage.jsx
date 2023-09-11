@@ -1,4 +1,14 @@
 import person from "/src/Assets/Icons/people-icon.jpg";
+import email from "/src/Assets/Icons/email.png";
+import whatsapp from "/src/Assets/Icons/whatsapp.png";
+import twitter from ".src/Assets/Icons/twitter-icon.png";
+import splitter from "/src/Assets/Images/splitter.png";
+import taskmanager from "/src/Assets/Images/task-manager.png";
+import Advice from "/src/Assets/Images/AdviceApp.PNG";
+import countries from "/src/Assets/Images/Rest-countries.PNG";
+import finsweet from "/src/Assets/Images/finsweet.png";
+import work from "/src/Assets/Images/work-image.png";
+
 
 export const data = [
     { id: 1, image: person, text: "Barisanem's commitment to work is excellent and inspiring.He exhibits a growth mindset and always improves on his skill set continuously. He is a highly valuable asset.", name: "Ikechukwu Onuorah", Role: "iOS Engineer | SwifUI | UIKit | Flutter", },
@@ -11,21 +21,21 @@ export const data = [
 
 
 export const contactData = [
-    { id: 1, image: "/src/Assets/Icons/email.png", title: "Email", detail: "fiiwebarry@yahoo.com", },
-    { id: 2, image: "/src/Assets/Icons/whatsapp.png", title: "WhatsApp", detail: "+2348136719957", },
-    { id: 3, image: "/src/Assets/Icons/twitter-icon.png", title: "Twitter", detail: "FIIWEBARRY9", },
+    { id: 1, image: email, title: "Email", detail: "fiiwebarry@yahoo.com", },
+    { id: 2, image: whatsapp, title: "WhatsApp", detail: "+2348136719957", },
+    { id: 3, image: twitter, title: "Twitter", detail: "FIIWEBARRY9", },
 
 ];
 
 export const projectData = [
-    { id: 1, image: "/src/Assets/Images/splitter.png", href: "#", },
-    { id: 2, image: "/src/Assets/Images/task-manager.png", href: "#", },
-    { id: 4, image: "/src/Assets/Images/AdviceApp.PNG", href: "#", },
+    { id: 1, image: splitter, href: "#", },
+    { id: 2, image: taskmanager, href: "#", },
+    { id: 4, image: Advice, href: "#", },
 
 ]
 export const projectData2 = [
-    { id: 1, image: "/src/Assets/Images/Rest-countries.PNG", href: "#", },
-    { id: 2, image: "/src/Assets/Images/finsweet.png", href: "#", },
-    { id: 4, image: "/src/Assets/Images/work-image.png", href: "#", },
+    { id: 1, image: countries, href: "#", },
+    { id: 2, image: finsweet, href: "#", },
+    { id: 4, image: work, href: "#", },
 
 ] 
