@@ -5,7 +5,7 @@ import twitter from ".src/Assets/Icons/twitter-icon.png";
 import splitter from "/src/Assets/Images/splitter.png";
 import taskmanager from "/src/Assets/Images/task-manager.png";
 import Advice from "/src/Assets/Images/AdviceApp.PNG";
-import countries from "/src/Assets/Images/Rest-countries.PNG";
+import countries from "/src/Assets/Images/AdviceApp.PNG";
 import finsweet from "/src/Assets/Images/finsweet.png";
 import work from "/src/Assets/Images/work-image.png";
 
