@@ -4,8 +4,8 @@ import whatsapp from "/src/Assets/Icons/whatsapp.png";
 import twitter from "/src/Assets/Icons/twitterIcon.png"
 import splitter from "/src/Assets/Images/splitter.png";
 import taskmanager from "/src/Assets/Images/task-manager.png";
-import Advice from "/src/Assets/Images/AdviceApp.PNG";
-import countries from "/src/Assets/Images/AdviceApp.PNG";
+import Advice from "/src/Assets/Images/splitter.png";
+import countries from "/src/Assets/Images/splitter.png";
 import finsweet from "/src/Assets/Images/finsweet.png";
 import work from "/src/Assets/Images/work-image.png";
 
