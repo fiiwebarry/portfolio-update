@@ -7,6 +7,7 @@ import Batch from './Components/Portfolio-layout/Batch/index';
 import Testimonial from "./Components/Portfolio-layout/Testimonial/testimonial";
 import Contact from "./Components/Portfolio-layout/Contact/Contact";
 import Projects from './Components/Portfolio-layout/Projects/Projects';
+import Footer from "./Components/Portfolio-layout/Footer/Footer";
 
 import './App.css'
 
@@ -33,7 +34,7 @@ function App() {
       <Projects />
       <Testimonial />
       <Contact />
-      {/* <Project /> */}
+      <Footer />
 
 
 
