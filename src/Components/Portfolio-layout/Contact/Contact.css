@@ -115,12 +115,17 @@ textarea{
         display: flex;
         flex-direction: column;
         
-    }
-    .contactMe-tab {
-        margin-left: -200px;
-        width: 370px;
         
     }
+    .contact-tab{
+        gap:20px;
+    }
+    
+     .contactMe-tab {
+            width: 310px;
+            margin-left: -170px;
+        }
+    
     form{
         margin-left: -200px;
     }

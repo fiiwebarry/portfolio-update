@@ -102,9 +102,12 @@
       flex-direction: column;
       gap:20px;
     }
-    .testimony-box {
-      width: 100%;
-  }
+  
+      .testimony-box {
+        width: 325px;
+        margin-left: 20px;
+    }
+  
   .testimonials-p {
     
     font-size: 20px;

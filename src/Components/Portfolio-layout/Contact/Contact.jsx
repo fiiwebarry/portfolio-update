@@ -18,7 +18,7 @@ const Contact = () => {
                     <div className="flex-tab">
 
                         <div className="contact-tab">
-                            <p className="flex-tab-tab">Talk to me</p>
+                            <p className="">Talk to me</p>
                             {contactData.map((contact) => {
 
                                 const { id, image, title, detail } = contact;
