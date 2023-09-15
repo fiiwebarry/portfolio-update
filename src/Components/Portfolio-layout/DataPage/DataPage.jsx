@@ -4,8 +4,8 @@ import whatsapp from "/src/Assets/Icons/whatsapp.png";
 import twitter from "/src/Assets/Icons/twitterIcon.png"
 import splitter from "/src/Assets/Images/splitter.png";
 import taskmanager from "/src/Assets/Images/task-manager.png";
-import Advice from "/src/Assets/Images/splitter.png";
-import countries from "/src/Assets/Images/splitter.png";
+import Advice from "/src/Assets/Images/AdviceApp.png";
+import countries from "/src/Assets/Images/Rest-Countries.png";
 import finsweet from "/src/Assets/Images/finsweet.png";
 import work from "/src/Assets/Images/work-image.png";
 
@@ -30,12 +30,12 @@ export const contactData = [
 export const projectData = [
     { id: 1, image: splitter, href: "#", },
     { id: 2, image: taskmanager, href: "#", },
-    { id: 4, image: Advice, href: "#", },
+    { id: 3, image: Advice, href: "#", },
 
 ]
 export const projectData2 = [
     { id: 1, image: countries, href: "#", },
-    { id: 2, image: finsweet, href: "#", },
-    { id: 4, image: work, href: "#", },
+    { id: 2, image: countries, href: "#", },
+    { id: 3, image: work, href: "#", },
 
 ] 

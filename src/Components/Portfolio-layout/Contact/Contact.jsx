@@ -1,5 +1,6 @@
 import { contactData } from "../DataPage/DataPage";
 import icon from "/src/Assets/Icons/Arrow 1 (1).png";
+import { SiMailchimp } from "react-icons/si";
 import "./Contact.css";
 
 const Contact = () => {
@@ -8,7 +9,7 @@ const Contact = () => {
         <section id="contact" className="contact-Me">
             <div className="contact-tab-tab">
                 <div className="container">
-                    <button className="contact-btn">Get in touch</button>
+                    <button className="contact-btn">Get in touch<SiMailchimp /></button>
                     <div className="contact-text"><p>Contact me</p>
 
                     </div>

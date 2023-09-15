@@ -8,6 +8,7 @@
 
   background-color: #F9F9F9;
    margin-bottom: 80px; 
+   padding: 40px;
 }
 
 .work-button {
@@ -71,8 +72,12 @@
   padding: 10px;
 }
 .project-link{
-  margin-left: 30px;
-  gap: 20px;
+  width:370px;
+  height: 200px;
+  background-color: #ffff;
+  border-radius: 0px 0px 20px 20px;
+  border: 1px solid #ffff;
+
 }
 .work-p {
   color: black;
@@ -93,27 +98,19 @@
 }
 .flex{
   display: flex;
-   gap: 10px;
+   gap: 20px;
  
 }
 
-.work-image {
-   width: 439px; 
-  flex-shrink: 0;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px 10px 10px 10px;
-  background-color: #fff;
-  padding-top: 15px; 
-}
+
 .pager{
   margin-top: 20px;
 padding-bottom: 40px;
 }
 .work-img {
-  width: 400px; 
+  width: 370px; 
   flex-shrink: 0;
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
   
 }
 /* Tablet View */

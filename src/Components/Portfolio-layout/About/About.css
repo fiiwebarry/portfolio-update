@@ -58,6 +58,9 @@
    font-style: normal;
    font-weight: 400;
    line-height: 28px;
+    font-family: 'Cormorant Garamond', serif; 
+  
+
   
 }
 .text-sets{
@@ -130,8 +133,8 @@ span{
          }
      
       .image-tab img {
-        margin-left: -60px;
-        width: 350px;
+        margin-left: -50px;
+        width: 330px;
         height: auto;
     }
     .About-text-tab {

@@ -2,6 +2,7 @@
 import Img from "/src/Assets/Images/Rectangle.png";
 import img2 from "/src/Assets/Images/shade.png";
 import star from "/src/Assets/Icons/Star.png";
+import { GiBookmarklet } from 'react-icons/gi';
 import "./About.css"
 
 const About = () => {
@@ -12,7 +13,7 @@ const About = () => {
             <div className="container">
 
                 <div className="btn-layer">
-                    <button className="about-btn"> About me</button>
+                    <button className="about-btn"> About me <GiBookmarklet /></button>
 
                 </div>
 

@@ -1,13 +1,13 @@
 import icon from "/src/Assets/Icons/react.svg";
 import icon2 from "/src/Assets/Icons/javascript.svg";
 import icon3 from "/src/Assets/Icons/css.png";
-// import icon4 from "/src/Assets/Icons/nextdotjs.png";
 import icon5 from "/src/Assets/Icons/figma.svg";
 import icon6 from "/src/Assets/Icons/tailwindcss.svg";
 import icon7 from "/src/Assets/Icons/git.png";
 import icon8 from "/src/Assets/Icons/bootstrap.svg";
 import icon9 from "/src/Assets/Icons/html5.png";
 import icon10 from "/src/Assets/Icons/Next.png";
+import { BsRobot } from "react-icons/bs";
 import "./index.css"
 const Batch = () => {
 
@@ -15,7 +15,7 @@ const Batch = () => {
         <div className="skills-set-tab">
 
             <div className="skills-btn">
-                <button className="btn-tab">My Skill Set</button>
+                <button className="btn-tab">My Skill Set <BsRobot /></button>
             </div>
 
             <div className="skills-tab">

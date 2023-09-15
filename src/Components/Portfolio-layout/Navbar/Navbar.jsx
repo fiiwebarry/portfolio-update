@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./Navbar.css";
 import moon from "/src/Assets/Icons/moon-icon.png";
 import sun from "/src/Assets/Icons/Sun-icon.png";
+import { GiBee } from 'react-icons/gi';
 
 const Navbar = () => {
 
@@ -26,11 +27,11 @@ const Navbar = () => {
         <nav className={`Navbar ${isDarkMood ? " darkView" : "lightView "}`}>
             <div className="container">
                 <div className="Icon-name">
-                    <div> <h1 className="Nav-header">GrittyBee</h1></div>
+                    <div> <h1 className="Nav-header">Gritty<GiBee /></h1></div>
 
                     <div className="nav-details">
                         <div className="drop-down">
-                            <ul>
+                            <ul className="nav-tab">
                                 <li><a href="#About">About</a></li>
                                 <li><a href="/about">Project</a></li>
                                 <li><a href="/contact">Testimonial</a></li>

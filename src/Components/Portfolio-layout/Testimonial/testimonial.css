@@ -112,4 +112,18 @@
     
     font-size: 20px;
     }
+    .testimony-text {
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      margin: auto;
+      width: 320px;
+      color: black;
+      text-align: center;
+      font-family: Open Sans;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+  }
   }

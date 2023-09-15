@@ -4,6 +4,7 @@ import github from "/src/Assets/Icons/gittyhub.png";
 import linkedin from "/src/Assets/Icons/linkedin-icon.png"
 import Bulletpoint from "/src/Assets/Icons/Bullet.svg";
 import Img from "/src/Assets/Images/Hero-Image.png";
+import { BiSolidFolderOpen } from 'react-icons/bi';
 import "./Hero.css"
 const Hero = () => {
 
@@ -25,7 +26,7 @@ const Hero = () => {
                                 appealing and responsive.
                             </p>
                             <button className="Hire-btn">Hire me</button>
-                            <button className='Hire-btn2'><a href="/src/Assets/Brands/Fiiwe Barisanem's Resume.pdf"> DOWNLOAD CV </a></button>
+                            <button className='Hire-btn2'><a className="link" href="/src/Assets/Brands/Fiiwe Barisanem's Resume.pdf"> DOWNLOAD CV <BiSolidFolderOpen /> </a></button>
                         </div>
                         <div className="Header-text-icon-layer">
                             <img className="bullet-point" src={Bulletpoint} />

@@ -32,6 +32,7 @@ const testimonial = () => {
                     <span className="testimony-span">{name}</span><br />
                     <span className="testimony-span">{Role}</span>
                   </div>
+
                 </div>
 
               </>
@@ -44,25 +45,6 @@ const testimonial = () => {
 
         </div>
 
-
-        {/* <div className="testimony-box">
-            <img className="testimony-img" src={Person} alt="" />
-            <p className="testimony-text">
-              Lorem ipsum dolor sit amet consectetur. Viverra donec accumsan velit
-              nulla sed sed pellentesque feugiat commodo.
-            </p>
-            <span className="testimony-span">John Doe</span><br />
-            <span className="testimony-span">Freelance</span>
-          </div>
-          <div className="testimony-box">
-            <img className="testimony-img" src={Person} alt="" />
-            <p className="testimony-text">
-              Lorem ipsum dolor sit amet consectetur. Viverra donec accumsan velit
-              nulla sed sed pellentesque feugiat commodo.
-            </p>
-            <span className="testimony-span">John Doe</span><br />
-            <span className="testimony-span">Freelance</span>
-          </div></div> */}
 
       </div>
     </div >
