@@ -6,7 +6,7 @@ import splitter from "/src/Assets/Images/splitter.png";
 import taskmanager from "/src/Assets/Images/task-manager.png";
 import Advice from "/src/Assets/Images/AdviceApp.png";
 import countries from "/src/Assets/Images/Rest-Countries.png";
-import finsweet from "/src/Assets/Images/finsweet.png";
+// import finsweet from "/src/Assets/Images/finsweet.png";
 import work from "/src/Assets/Images/work-image.png";
 
 
@@ -28,13 +28,13 @@ export const contactData = [
 ];
 
 export const projectData = [
-    { id: 1, image: splitter, href: "#", },
-    { id: 2, image: taskmanager, href: "#", },
-    { id: 3, image: Advice, href: "#", },
+    { id: 1, image: splitter, href: "#", content: "Splitter is a user-friendly and intuitive mobile application designed to simplify the process of calculating tips and splitting bills. Whether you're dining out with friends, enjoying a night out,or simply grabbing a coffee to-go, Splitter ensures you can quickly and accurately determine the appropriate tip amount." },
+    { id: 2, image: taskmanager, href: "#", content: "Task Management App is a sleek and intuitive mobile application designed to help users organize their daily tasks and manage their time effectively. With its user-friendly interface and powerful features, Task Management App ensures you stay on top of your to-do list and accomplish your goals." },
+    { id: 3, image: Advice, href: "#", content: "Advice-app is a unique mobile application that combines the power of AI-driven advice with a comprehensive API, offering users personalized guidance and information on a wide range of topics. Whether you need life advice, professional insights, or quick tips on a hobby, the Advice-app has you covered." },
 
 ]
 export const projectData2 = [
-    { id: 1, image: countries, href: "#", },
+    { id: 1, image: countries, href: "#", content: "Splitter is a user-friendly and intuitive mobile application designed to simplify the process of calculating tips and splitting bills. Whether you're dining out with friends, enjoying a night out,or simply grabbing a coffee to-go, Splitter ensures you can quickly and accurately determine the appropriate tip amount." },
     { id: 2, image: countries, href: "#", },
     { id: 3, image: work, href: "#", },
 

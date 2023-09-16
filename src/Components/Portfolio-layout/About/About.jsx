@@ -31,9 +31,6 @@ const About = () => {
                     <div className="About-text-tab">
                         <p>
                             My journey into the world of web development began with an insatiable curiosity for technology and a desire to create things that impact people's lives positively.
-                            {/* Front-end development proved to be the perfect fusion of creativity and technicality, allowing me to build bridges */}
-                            {/* between design and functionality.  */}
-
                             I'm fascinated by the ever-evolving landscape of web technologies,
                             and I embrace the challenge of staying up-to-date with the latest trends and best practices.
                         </p>

@@ -7,6 +7,15 @@ import { TbSitemap } from "react-icons/tb";
 
 
 const Projects = () => {
+
+  const clickHandler = () => {
+
+    window.location.href = "https://github.com/fiiwebarry/TIP-CALCULATOR";
+  }
+
+  const splitterClick = () => {
+    window.location.href = "https://fiiwebarry.github.io/TIP-CALCULATOR/";
+  }
   return (
     <div className="project">
       <div className=" container">
@@ -21,7 +30,7 @@ const Projects = () => {
           <div className="flex">
             {projectData.map((project) => {
 
-              const { id, image } = project;
+              const { id, image, content } = project;
               return (
                 <div key={id} className="work-image">
                   <img className="work-img" src={image} alt="" />
@@ -29,17 +38,13 @@ const Projects = () => {
 
                   <div className="project-link">
 
-                    <p>
-                      TipMate is a user-friendly and intuitive mobile application designed to simplify
-                      the process of calculating tips and splitting bills. Whether you're
-                      dining out with friends, enjoying a night out,
-                      or simply grabbing a coffee to-go, TipMate ensures you can quickly
-                      and accurately determine the appropriate tip amount.
+                    <p className="projectile">
+                      {content}
 
                     </p>
 
-                    <button className="work-btn2"> GitHub <AiFillGithub /></button>
-                    <button className="work-btn2">Visit-Site <TbSitemap /></button>
+                    <button onClick={clickHandler} className="work-btn2"> GitHub <AiFillGithub /></button>
+                    <button onClick={splitterClick} className="work-btn2">Visit-Site <TbSitemap /></button>
 
 
                   </div>
@@ -53,16 +58,20 @@ const Projects = () => {
           <div className="flex pager">
             {projectData2.map((project) => {
 
-              const { id, image } = project;
+              const { id, image, content } = project;
               return (
                 <div key={id} className="work-image">
                   <img className="work-img" src={image} alt="" />
 
 
                   <div className="project-link">
+
+                    <p className="projectile">
+                      {content}
+                    </p>
                     <button className="work-btn2"> GitHub</button>
                     <button className="work-btn2">Visit-Site</button>
-                    {/* <button className="work-btn2">TIPS CALCULATOR APP</button> */}
+
 
                   </div>
                 </div>

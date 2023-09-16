@@ -29,21 +29,17 @@ nav {
   }
   .Nav-header{
    padding:20px;
-   /* font-family: Calluna; */
    font-size: 50px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-    /* font-family: 'Cormorant Garamond', serif; */
- /* font-family: 'Jost', sans-serif; */ */
- font-family: 'Roboto Serif', serif; */ */
+ font-family: 'Roboto Serif', serif;
 
   }
   .Icon-name{
     padding-top: 30px;
   }
  .box-tab{
-  /* border-radius: 10px; */
   margin-top: -5px;
   height: 70px
  }
@@ -64,9 +60,7 @@ nav {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-     /* font-family: 'Cormorant Garamond', serif;   */
- /* font-family: 'Jost', sans-serif; */
-  /* font-family: 'Roboto Serif', serif;  */ */
+    
 
   }
   .moon-icon{
@@ -113,7 +107,8 @@ nav {
 nav ul {
   list-style-type:none;
   padding: 0;
-  flex: none !important;
+  display: none;
+  /* flex: none !important; */
   gap: 10px
 }
 

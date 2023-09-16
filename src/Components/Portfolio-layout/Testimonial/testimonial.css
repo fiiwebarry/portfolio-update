@@ -1,3 +1,8 @@
+/* font-family: 'Cormorant Garamond', serif;   */
+ /* font-family: 'Jost', sans-serif; */
+  /* font-family: 'Roboto Serif', serif;  */ 
+
+
 .testimonials{
     background-color: #fff;
     
@@ -26,15 +31,17 @@
   }
  
   .testimonials-p {
+    margin-top: 20px;
     color:black;
     text-align: center;
-    font-family: Open Sans;
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     padding-top: 20px;
     padding-bottom: 20px;
+     font-family: 'Roboto Serif', serif;  
+
   }
   .testimonial-tab{
     display: flex;
@@ -50,7 +57,6 @@
     background: #FFF; 
   }
   .testimony-img{
-    /* border-radius: 100px; */
     padding-top: 10px;
     display: flex;
     justify-content: center;
@@ -67,7 +73,7 @@
     width: 320px;
     color: black;
     text-align: center;
-    font-family: Open Sans;
+    font-family: 'Cormorant Garamond', serif; 
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -80,7 +86,7 @@
     color: black;
     text-align: center;
     font-family: Open Sans;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal; 
