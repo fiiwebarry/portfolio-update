@@ -146,6 +146,7 @@ padding-bottom: 40px;
 .flex {
   flex-direction: column;
   gap: 10px;
+  margin-left: -15px;
   
 }
 .work-img {
