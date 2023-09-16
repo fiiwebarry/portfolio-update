@@ -120,13 +120,26 @@ textarea{
     .contact-tab{
         gap:20px;
     }
+    .talk-tab {
+        margin-left: -50px; 
+    } 
     
      .contactMe-tab {
-            width: 340px;
+            width: 310px;
             margin-left: -170px;
         }
     
     form{
         margin-left: -170px;
+    }
+    input {
+        width: 320px;
+    }
+    textarea {
+        width: 320px;
+        
+    }
+    .submit-btn {
+        margin-top: 20px
     }
 }

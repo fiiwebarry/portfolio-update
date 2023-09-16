@@ -145,18 +145,28 @@ padding-bottom: 40px;
   
 .flex {
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
   margin-left: -15px;
   
 }
 .work-img {
-  width: 350px;
+  width: 320px;
 }
 .work-image {
-  width: 370px;
+  width: 320px;
 }
 .work-p{
   font-size: 18px;
+}
+.project-link {
+  width: 320px;
+}
+.testimony{
+  width:350px;
+}
+.testimony-box {
+  width: 332px;
+  margin-left: 14px;
 }
 
 }
