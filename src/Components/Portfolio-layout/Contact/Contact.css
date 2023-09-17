@@ -1,28 +1,35 @@
 
-
-.contact-Me{
-    background-color: #F9F9F9;
+form{
     margin-top: 40px;
 }
-.contact-tab{
+.contact-Me {
+    background-color: #f9f9f9;
+    margin-top: 40px;
+}
+.contact-tab {
     display: flex;
     flex-direction: column;
     gap: 10px;
-
 }
-.contactMe-tab{
+.contactMe-tab {
     border-radius: 20px;
-    background: #FFF;
+    background: #fff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 2px 4px 0px rgba(0, 0, 0, 0.25) inset;
     display: flex;
     width: 397px;
-   padding: 20px;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   gap: 25px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 
+    
+        
+    }
 
+    label{
+        margin-top: 40px;
+    }
     /* width: 297px;
 display: flex;
 flex-direction: column;
@@ -31,15 +38,14 @@ flex-shrink: 0;
 border-radius: 20px;
 background: #FFF;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 2px 4px 0px rgba(0, 0, 0, 0.25) inset; */
-
 }
-.contact-tab-tab{
+.contact-tab-tab {
     padding: 60px;
 }
-.contact-btn{
+.contact-btn {
     display: flex;
-    color:black;
-    padding: 10px; 
+    color: black;
+    padding: 10px;
     /* gap:30px; */
     text-align: center;
     font-family: Open Sans;
@@ -48,88 +54,84 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 2px 4px 0px rgba(0, 0, 0, 0
     font-weight: 600;
     line-height: normal;
     border-radius: 8px;
-    background:   #F9FAFB;
-    border-color:  #F9FAFB;
-    box-shadow: 0px 8px 5px 0px  #F9FAFB inset;
+    background: #f9fafb;
+    border-color: #f9fafb;
+    box-shadow: 0px 8px 5px 0px #f9fafb inset;
     cursor: pointer;
     margin: auto;
-
 }
-.flex-tab{
+.flex-tab {
     display: flex;
     margin-left: 140px;
-    gap:70px;
+    gap: 70px;
 }
-input{
-    width:350px;
+input {
+    width: 350px;
     padding: 10px;
     border-radius: 10px;
 }
-textarea{
+textarea {
     padding: 30px;
-    width:350px;
+    width: 350px;
     border-radius: 10px;
     height: 200px;
 }
-.submit-btn{
-    color: #FFF;
+.submit-btn {
+    color: #fff;
     padding: 10px;
     border-radius: 20px;
     background: #000;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
-   text-align: center;
-   font-family: Open Sans;
-   font-size: 24px;
-   font-style: normal;
-   font-weight: 600;
-   line-height: normal;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
-.flex-tab-tab{
+.flex-tab-tab {
     display: flex;
     margin: auto;
     padding: 10px;
 }
-.title-tab{
-  color: #111827;
-  text-align: center;
-  font-family: Open Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+.title-tab {
+    color: #111827;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+textarea{
+    margin-top: 60px;
 }
 
-@media screen  and (max-width:820px){
-
-    .flex-tab{
+@media screen and (max-width: 820px) {
+    .flex-tab {
         display: flex;
         flex-direction: column;
-        
     }
-
 }
 
-@media screen  and (max-width:414px){
-  
-    .flex-tab{
+@media screen and (max-width: 414px) {
+    .flex-tab {
         display: flex;
         flex-direction: column;
-        
-        
     }
-    .contact-tab{
-        gap:20px;
+    .contact-tab {
+        gap: 20px;
     }
     .talk-tab {
-        margin-left: -50px; 
-    } 
-    
-     .contactMe-tab {
-            width: 310px;
-            margin-left: -170px;
-        }
-    
-    form{
+        margin-left: -50px;
+    }
+
+    .contactMe-tab {
+        width: 310px;
+        margin-left: -170px;
+    }
+
+    form {
         margin-left: -170px;
     }
     input {
@@ -137,9 +139,8 @@ textarea{
     }
     textarea {
         width: 320px;
-        
     }
     .submit-btn {
-        margin-top: 20px
+        margin-top: 20px;
     }
 }
