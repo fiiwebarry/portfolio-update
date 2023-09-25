@@ -20,7 +20,7 @@ a{
 .icons-tabs{
     display: flex;
     justify-content: center;
-    margin: auto;
+    
 }
 .Nav-headers {
      font-size: 27px;

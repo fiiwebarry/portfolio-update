@@ -160,13 +160,20 @@ padding-bottom: 40px;
 }
 .project-link {
   width: 320px;
+  height:auto;
 }
 .testimony{
   width:350px;
 }
 .testimony-box {
   width: 332px;
-  margin-left: 14px;
+  margin-left: 24px;
+}
+.project{
+padding: 50px;
+}
+.testimonials-p {
+  font-size: 18px;
 }
 
 }
