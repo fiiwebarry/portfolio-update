@@ -53,14 +53,14 @@ const Contact = () => {
 
 
                         <form htmlFor="" onSubmit>
-                            <p>Write me a Mail</p>
-                            <label htmlFor="" >  Name</label><br />
-                            <input type="text" className="" placeholder="insert your Name" /><br />
+                            <p className="text-text">Write me a Mail</p>
+                            <label className="name-hub" htmlFor="name"> Name</label><br />
+                            <input type="text" className=" text-hub" placeholder="insert your Name" /><br /><br />
 
-                            <label htmlFor="">Mail</label><br />
-                            <input type="text" placeholder="insert your Mail" /><br />
+                            <label className="mail-box" htmlFor="">Mail</label><br />
+                            <input className="mail-box2" type="text" placeholder="insert your Mail" /><br /><br />
 
-                            <label htmlFor="">Message</label><br />
+                            <label className="message-box" htmlFor="">Message</label><br />
                             <textarea placeholder="insert your Mail" ></textarea><br />
                             <button className="submit-btn" type="submit">Send Message
                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">

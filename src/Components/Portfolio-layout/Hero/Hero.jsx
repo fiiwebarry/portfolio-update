@@ -4,18 +4,13 @@ import github from "/src/Assets/Icons/gittyhub.png";
 import linkedin from "/src/Assets/Icons/linkedin-icon.png"
 import Bulletpoint from "/src/Assets/Icons/Bullet.svg";
 import Img from "/src/Assets/Images/Hero-Image.png";
+import resume from "/src/Assets/Brands/Fiiwe Barisanem's Resume.pdf"
 import { BiSolidFolderOpen } from 'react-icons/bi';
 import "./Hero.css"
 
-// import { useHistory } from 'react-router-dom';
 
 const Hero = () => {
 
-    // let history = useHistory();
-
-    const handleClick = () => {
-        history.push('/contact');
-    };
 
     return (
         <div className="hero-page-holder">
@@ -34,8 +29,8 @@ const Hero = () => {
                                 digital experiences that are fast, accessible, visually
                                 appealing and responsive.
                             </p>
-                            <button onClick={handleClick} className="Hire-btn" href="/#contact">Hire me</button>
-                            <button className='Hire-btn2'><a className="link" href="/src/Assets/Brands/Fiiwe Barisanem's Resume.pdf"> DOWNLOAD CV <BiSolidFolderOpen /> </a></button>
+                            <button className="Hire-btn" onClick={() => window.location.href = '#contact'}>Hire me</button>
+                            <a className='Hire-btn2' href={resume} download=" "> DOWNLOAD CV <BiSolidFolderOpen /></a>
                         </div>
                         <div className="Header-text-icon-layer">
                             <img className="bullet-point" src={Bulletpoint} />
