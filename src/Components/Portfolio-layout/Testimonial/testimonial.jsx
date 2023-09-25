@@ -4,7 +4,7 @@ import "./testimonial.css";
 
 const testimonial = () => {
   return (
-    <div className="testimonials">
+    <div id="testimonial" className="testimonials">
       <div className="container">
 
         <div className="testimonials-button" >
