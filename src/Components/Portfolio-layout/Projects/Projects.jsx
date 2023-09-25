@@ -8,13 +8,13 @@ import { TbSitemap } from "react-icons/tb";
 
 const Projects = () => {
 
-  const clickHandler = () => {
+  const clickHandler = (url) => {
 
-    window.location.href = "https://github.com/fiiwebarry/TIP-CALCULATOR";
+    window.location.href = url;
   }
 
-  const splitterClick = () => {
-    window.location.href = "https://fiiwebarry.github.io/TIP-CALCULATOR/";
+  const splitterClick = (url) => {
+    window.location.href = url;
   }
   return (
     <div className="project">
@@ -30,7 +30,7 @@ const Projects = () => {
           <div className="flex">
             {projectData.map((project) => {
 
-              const { id, image, content } = project;
+              const { id, image, githubUrl, siteUrl, content } = project;
               return (
                 <div key={id} className="work-image">
                   <img className="work-img" src={image} alt="" />
@@ -43,8 +43,8 @@ const Projects = () => {
 
                     </p>
 
-                    <button onClick={clickHandler} className="work-btn2"> GitHub <AiFillGithub /></button>
-                    <button onClick={splitterClick} className="work-btn2">Visit-Site <TbSitemap /></button>
+                    <button onClick={() => clickHandler(githubUrl)} className="work-btn2"> GitHub <AiFillGithub /></button>
+                    <button onClick={() => splitterClick(siteUrl)} className="work-btn2">Visit-Site <TbSitemap /></button>
 
 
                   </div>
@@ -58,7 +58,7 @@ const Projects = () => {
           <div className="flex pager">
             {projectData2.map((project) => {
 
-              const { id, image, content } = project;
+              const { id, image, githubUrl, siteUrl, content } = project;
               return (
                 <div key={id} className="work-image">
                   <img className="work-img" src={image} alt="" />
@@ -69,8 +69,8 @@ const Projects = () => {
                     <p className="projectile">
                       {content}
                     </p>
-                    <button className="work-btn2"> GitHub</button>
-                    <button className="work-btn2">Visit-Site</button>
+                    <button onClick={() => clickHandler(githubUrl)} className="work-btn2"> GitHub</button>
+                    <button onClick={() => splitterClick(siteUrl)} className="work-btn2">Visit-Site</button>
 
 
                   </div>
