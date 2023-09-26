@@ -29,7 +29,7 @@ const Footer = () => {
 
                 </div>
             </div>
-            <div className="icon-tabs">
+            <div className="icon-tabss">
                 <a href="https://github.com/fiiwebarry"><img className="github" src={github} /> </a>
                 <a href=""><img className="twitter-icon" src={twitter} /></a>
                 <a href="https://www.linkedin.com/in/barisanem-fiiwe-08659992/"><img className="linkedin-icon" src={linkedin} /></a>

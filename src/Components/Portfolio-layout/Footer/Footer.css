@@ -2,6 +2,7 @@
     background-color: #fff;
 }
 .nav-tab-tab{
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     list-style: none;
@@ -17,11 +18,14 @@ a{
     text-align: center;
     
 }
-.icons-tabs{
+.icon-tabss{
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
+    text-align:center ;
     
 }
 .Nav-headers {
      font-size: 27px;
+     padding-top:10px;
 }

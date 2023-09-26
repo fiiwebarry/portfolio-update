@@ -17,7 +17,7 @@ const Projects = () => {
     window.location.href = url;
   }
   return (
-    <div className="project">
+    <div id="project" className="project">
       <div className=" container">
         <div className="work-button">
           <button className="work-btn">Projects <GiLaptop /></button>
@@ -69,8 +69,8 @@ const Projects = () => {
                     <p className="projectile">
                       {content}
                     </p>
-                    <button onClick={() => clickHandler(githubUrl)} className="work-btn2"> GitHub</button>
-                    <button onClick={() => splitterClick(siteUrl)} className="work-btn2">Visit-Site</button>
+                    <button onClick={() => clickHandler(githubUrl)} className="work-btn2"> GitHub <AiFillGithub /></button>
+                    <button onClick={() => splitterClick(siteUrl)} className="work-btn2">Visit-Site <TbSitemap /></button>
 
 
                   </div>

@@ -33,7 +33,7 @@ const Navbar = () => {
                         <div className="drop-down">
                             <ul className="nav-tab">
                                 <li><a href="#About">About</a></li>
-                                <li><a href="/about">Project</a></li>
+                                <li><a href="#project">Project</a></li>
                                 <li><a href="#testimonial">Testimonial</a></li>
                                 <li><a href="#contact">Contact</a></li>
 
