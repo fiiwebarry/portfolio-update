@@ -119,13 +119,12 @@ span{
 /* Mobile view */
 @media only screen and (max-width:414px){
     .About-page-text{
-        display: flex;
         flex-direction: column;
         gap:100px;
     }
     .About-page-holder {
         margin-top: 40px;
-        background-color: #F9F9F9;
+      
     }
         
  .shade {
@@ -133,7 +132,7 @@ span{
          }
      
       .image-tab img {
-        margin-left: -40px;
+        margin-left: -45px;
         width: 300px;
         height: auto;
         
@@ -154,9 +153,7 @@ span{
     
     .about-me {
         font-size: 28px;
-        color: orange;
-        
-    }
+     }
     .Header-text p {
         font-size: 20px;
         padding: 20px;
