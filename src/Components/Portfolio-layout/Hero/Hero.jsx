@@ -6,14 +6,17 @@ import Bulletpoint from "/src/Assets/Icons/Bullet.svg";
 import Img from "/src/Assets/Images/Hero-Image.png";
 import resume from "/src/Assets/Brands/Fiiwe Barisanem's Resume.pdf"
 import { BiSolidFolderOpen } from 'react-icons/bi';
+import { useContext } from "react";
+import { ThemeContext } from "../ThemeContext";
 import "./Hero.css"
 
 
 const Hero = () => {
 
+    const { isDarkMode } = useContext(ThemeContext);
 
     return (
-        <div className="hero-page-holder">
+        <div className={isDarkMode ? 'darkViewHero' : 'lightViewHero'}>
             <div className="container">
                 <div className="hero-page">
 

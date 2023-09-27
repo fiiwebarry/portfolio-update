@@ -5,15 +5,21 @@
 --secondary-dark: #030712;
 }
 .darkView{
-  background-color:var(--primary-dark);
-  color:var(--secondary-light);
+  background-color: #1F2937;
+  color:#FFF;
  }
 
 .lightView{
-  background-color:var(--primary-light); 
-  color:var(--secondary-dark);
+  background-color:#F9FAFB; 
+  color:#030712;
+}
+.drop-down{
+  margin-top: 70px;
 }
 
+.menu-tab{
+  display: none;
+}
 
 nav {
     position: relative;
@@ -37,10 +43,12 @@ nav {
 
   }
   .Icon-name{
+    display: flex;
     padding-top: 30px;
+    justify-content: space-between;
   }
  .box-tab{
-  margin-top: -5px;
+  margin-top: 64px;
   height: 70px
  }
    nav ul {
@@ -93,15 +101,14 @@ nav {
       padding-top: 20px;
   }
   .nav-details {
-      margin-top: 10px;
-      display: flex;
-      flex-direction: column;
+      margin-top: 30px;
       justify-content: flex-start;
       gap: 2px;
   } 
   
   .box-tab {
-    margin-top: 5px;
+    padding: 5px;
+    margin-top: -10px;
     height: 70px;
 }
 nav ul {
@@ -118,5 +125,8 @@ nav ul {
       left: 18874px;
       filter: blur(3px);
       background: rgba(196, 196, 196, 0.20);
+  }
+  .menu-tab{
+    display: block;
   }
 }

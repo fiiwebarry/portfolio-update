@@ -10,31 +10,29 @@ import Projects from './Components/Portfolio-layout/Projects/Projects';
 import Footer from "./Components/Portfolio-layout/Footer/Footer";
 
 import './App.css'
+import { ThemeProvider } from "./Components/Portfolio-layout/ThemeContext"
 
 
 function App() {
-  // const [count, setCount] = useState(0)
-  // const [darkMode, setDarkMode] = useState("darkMode");
 
-  // const toggleMode = () => {
-  //   if(darkMode==="darkMode")
-  //   {
-  //     setDarkMode("lightMode");
-  //   }
 
-  // };
+
+
+
 
   return (
     <>
+      <ThemeProvider>
+        <Navbar />
+        <Hero />
+        <About />
+        <Batch />
+        <Projects />
+        <Testimonial />
+        <Contact />
+        <Footer />
+      </ThemeProvider>
 
-      <Navbar />
-      <Hero />
-      <About />
-      <Batch />
-      <Projects />
-      <Testimonial />
-      <Contact />
-      <Footer />
 
 
 

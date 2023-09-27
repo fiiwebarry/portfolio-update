@@ -9,6 +9,22 @@
     box-sizing: border-box;
   }
 
+  /* :root{
+    --primary-light:#F9FAFB;
+    --secondary-light: #FFF;
+    --primary-dark: #1F2937;
+    --secondary-dark: #030712; */
+    
+    /* .darkViewHero{
+      background-color:#030712;
+      color:#F9FAFB;
+     }
+    
+    .lightViewHero{
+      background-color: #FFF;; 
+      color:#1F2937;
+    } */
+
   .container{
     margin:0 auto;
     width: 90%;
