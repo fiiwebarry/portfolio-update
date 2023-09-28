@@ -134,6 +134,7 @@ nav ul {
   .absolute-tab{
     position: fixed;
     top:0px;
+    z-index: 3000;
   }
   .burger{
     margin-top: -10px;
