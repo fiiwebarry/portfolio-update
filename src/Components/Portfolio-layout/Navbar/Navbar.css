@@ -132,7 +132,7 @@ nav ul {
     position: relative;
   }
   .absolute-tab{
-    position: absolute;
+    position: fixed;
     top:0px;
   }
   .burger{
