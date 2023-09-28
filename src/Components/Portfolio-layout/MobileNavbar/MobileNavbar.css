@@ -15,6 +15,7 @@ aside{
         width:160%;
         height: 100vh;
         background-color: #1F2937;
+        z-index: 3000px;
         color: #FFFF; 
     }
     .icon-tabbs{
