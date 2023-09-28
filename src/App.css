@@ -3,3 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* .relative-tab{
+  position: relative;
+}
+.absolute-tab{
+  position: absolute;
+  top: 0px;
+  z-index: 1000;
+  width:100%;
+} */

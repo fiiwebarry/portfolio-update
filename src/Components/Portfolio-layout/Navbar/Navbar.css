@@ -115,7 +115,6 @@ nav ul {
   list-style-type:none;
   padding: 0;
   display: none;
-  /* flex: none !important; */
   gap: 10px
 }
 
@@ -128,5 +127,16 @@ nav ul {
   }
   .menu-tab{
     display: block;
+  }
+  .relative-tab{
+    position: relative;
+  }
+  .absolute-tab{
+    position: absolute;
+    top:0px;
+  }
+  .burger{
+    margin-top: -10px;
+    font-size: 30px;
   }
 }
