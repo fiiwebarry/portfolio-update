@@ -44,7 +44,7 @@ const Navbar = () => {
                             </div>
 
                             <div className="box-tab">
-                                {isOpen ? (<button onClick={toggleTheme} ><img className="moon-icon" src={moon} />
+                                {isDarkMode ? (<button onClick={toggleTheme} ><img className="moon-icon" src={moon} />
                                 </button>) : (<button onClick={toggleTheme} ><img className="sun-icon" src={sun} /></button>)}
 
 
