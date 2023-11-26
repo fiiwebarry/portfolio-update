@@ -7,6 +7,7 @@ import taskmanager from "/src/Assets/Images/task-manager.png";
 import Advice from "/src/Assets/Images/AdviceApp.png";
 import countries from "/src/Assets/Images/Rest-Countries.png";
 import Hackathon from "/src/Assets/Images/Hackathon.png";
+import RisePath from "/src/Assets/Images/RisePath.png";
 // import finsweet from "/src/Assets/Images/finsweet.png";
 import work from "/src/Assets/Images/work-image.png";
 
@@ -37,7 +38,7 @@ export const projectData = [
 ];
 export const projectData2 = [
     { id: 1, image: Advice, githubUrl: "https://github.com/fiiwebarry/Advice-Generator-App", siteUrl: "https://fiiwebarry.github.io/Advice-Generator-App/", content: "Advice-app is a unique mobile application that combines the power of AI-driven advice with a comprehensive API, offering users personalized guidance and information on a wide range of topics. Whether you need life advice, professional insights, or quick tips on a hobby, the Advice-app has you covered." },
-    { id: 2, image: Hackathon, githubUrl: "#", siteUrl: "", content: "The coding challenge, titled 'GetLinked', was an excellent opportunity for me to demonstrate my technical skills and problem-solving abilities. It allowed me to showcase my proficiency in React.js and my ability to design efficient solutions. During the implementation phase, I focused on writing clean, maintainable code." },
-    { id: 3, image: work, githubUrl: "#", siteUrl: "", },
+    { id: 2, image: Hackathon, githubUrl: "https://github.com/fiiwebarry/Getlinked-Hackathon-Challenge", siteUrl: "", content: "The coding challenge, titled 'GetLinked', was an excellent opportunity for me to demonstrate my technical skills and problem-solving abilities. It allowed me to showcase my proficiency in React.js and my ability to design efficient solutions. During the implementation phase, I focused on writing clean, maintainable code." },
+    { id: 3, image: RisePath, githubUrl: "https://github.com/GrittyBee-Tech/Rise-Path", content:"The RisePath serves as a game-changer in the realm of HR education by providing a centralized platform that addresses the unique learning needs of professionals in the field. With its curated content, personalized approach, interactive features, and collaborative community.", siteUrl: "https://mellow-longma-801e80.netlify.app", },
 
 ];
