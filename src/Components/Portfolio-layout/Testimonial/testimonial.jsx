@@ -1,5 +1,5 @@
 import { data } from "../DataPage/DataPage";
-import "./testimonial.css";
+
 
 
 const testimonial = () => {

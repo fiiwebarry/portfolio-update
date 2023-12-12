@@ -1,7 +1,7 @@
 import { contactData } from "../DataPage/DataPage";
 import icon from "/src/Assets/Icons/Arrow 1 (1).png";
 import { SiMailchimp } from "react-icons/si";
-import "./Contact.css";
+
 
 const Contact = () => {
 

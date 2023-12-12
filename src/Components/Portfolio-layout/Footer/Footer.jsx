@@ -1,5 +1,4 @@
 
-import "./footer.css"
 import twitter from "/src/Assets/Icons/twitterIcon.png";
 import github from "/src/Assets/Icons/gittyhub.png";
 import linkedin from "/src/Assets/Icons/linkedin-icon.png"
