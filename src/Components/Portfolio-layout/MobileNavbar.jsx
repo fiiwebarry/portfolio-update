@@ -21,7 +21,7 @@ const MobileNavbar = ({ SetIsOpen }) => {
 
 
 
-        </aside>
+        </aside>g
 
     )
 }

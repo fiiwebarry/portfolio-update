@@ -10,7 +10,7 @@ import Advice from "/src/Assets/Images/AdviceApp.png";
 import countries from "/src/Assets/Images/Rest-Countries.png";
 import Hackathon from "/src/Assets/Images/Hackathon.png";
 import RisePath from "/src/Assets/Images/RisePath.png";
-import work from "/src/Assets/Images/work-image.png";
+// import work from "/src/Assets/Images/work-image.png";
 
 
 export const data = [
