@@ -5,10 +5,10 @@ import Navbar from "./Components/Portfolio-layout/Navbar";
 import Hero from "./Components/Portfolio-layout/Hero";
 import About from './Components/Portfolio-layout/About';
 import Batch from './Components/Portfolio-layout/Batch';
-import Testimonial from "./Components/Portfolio-layout/Testimonial/testimonial";
-import Contact from "./Components/Portfolio-layout/Contact/Contact";
-import Projects from './Components/Portfolio-layout/Projects/Projects';
-import Footer from "./Components/Portfolio-layout/Footer/Footer";
+import Testimonial from "./Components/Portfolio-layout/testimonial";
+import Contact from "./Components/Portfolio-layout/Contact";
+import Projects from './Components/Portfolio-layout/Projects';
+import Footer from "./Components/Portfolio-layout/Footer";
 
 import { ThemeProvider } from "./Components/Portfolio-layout/ThemeContext"
 // import MobileNavbar from "./Components/Portfolio-layout/MobileNavbar/MobileNavbar"

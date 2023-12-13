@@ -4,7 +4,7 @@ import sun from "/src/Assets/Icons/Sun-icon.png";
 import { GiBee } from 'react-icons/gi';
 import { GiHamburgerMenu } from "react-icons/gi";
 //  import { ThemeContext } from "../ThemeContext";
-// import MobileNavbar from "../MobileNavbar/MobileNavbar"
+import MobileNavbar from '/src/Components/Portfolio-layout/MobileNavbar';
 
 const Navbar = () => {
 
@@ -42,8 +42,8 @@ const Navbar = () => {
 
                             </div>
                             
-                            <div className="lg:hidden md:hidden mt-[22px] ">
-                                <button className="" onClick={ToggleHamburger}><GiHamburgerMenu className="text-[20px]"/></button>
+                            <div className="lg:hidden md:hidden flex ml-[120px] mt-[2px] ">
+                                <button className="" onClick={ToggleHamburger}><GiHamburgerMenu className="text-[30px]"/></button>
 
                             </div>
 
