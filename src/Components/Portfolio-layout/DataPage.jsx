@@ -1,4 +1,4 @@
-import person from "/src/Assets/Images/lenever.jpg";
+import person from "/src/Assets/images/lenever.jpg";
 import icon from "/src/Assets/images/Yuewu.jpg";
 import icon2 from "/src/Assets/images/ubong.jpg";
 import email from "/src/Assets/Icons/email.png";
