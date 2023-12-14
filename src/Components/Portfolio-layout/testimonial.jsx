@@ -7,7 +7,7 @@ import 'aos/dist/aos.css'; // Import the AOS CSS file
 
 
 
-const testimonial = () => {
+const Testimonial = () => {
 
   useEffect(() => {
     AOS.init();
@@ -65,4 +65,4 @@ const testimonial = () => {
   );
 };
 
-export default testimonial;
+export default Testimonial;
