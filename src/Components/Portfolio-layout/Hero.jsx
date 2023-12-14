@@ -22,7 +22,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <div >
+        <div className="overflow-x-clip">
             <div className="container mx-auto w-[85%]">
                 <div className="lg:flex  lg:flex-row md:flex md:flex-row flex flex-col-reverse  md:gap-[20px] lg:gap-[190px] lg:pt-[150px] md:pt-[90px] lg:mb-[50px] mb-[20px]">
 
