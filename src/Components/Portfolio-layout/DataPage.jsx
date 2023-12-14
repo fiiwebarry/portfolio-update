@@ -1,15 +1,15 @@
 import person from "/src/Assets/Images/lenever.jpg";
-import icon from "/src/Assets/Images/Yuewu.jpg";
-import icon2 from "/src/Assets/Images/ubong.jpg";
+import icon from "/src/Assets/images/Yuewu.jpg";
+import icon2 from "/src/Assets/images/ubong.jpg";
 import email from "/src/Assets/Icons/email.png";
 import whatsapp from "/src/Assets/Icons/whatsapp.png";
 import twitter from "/src/Assets/Icons/twitterIcon.png"
-import splitter from "/src/Assets/Images/splitter.png";
-import taskmanager from "/src/Assets/Images/task-manager.png";
-// import Advice from "/src/Assets/Images/Adviceapp.png";
-import countries from "/src/Assets/Images/Rest-Countries.png";
-import Hackathon from "/src/Assets/Images/Hackathon.png";
-import RisePath from "/src/Assets/Images/RisePath.png";
+import splitter from "/src/Assets/images/splitter.png";
+import taskmanager from "/src/Assets/images/task-manager.png";
+ import Advice from "/src/Assets/images/Adviceapp.png";
+import countries from "/src/Assets/images/Rest-Countries.png";
+import Hackathon from "/src/Assets/images/Hackathon.png";
+import RisePath from "/src/Assets/images/RisePath.png";
 // import work from "/src/Assets/Images/work-image.png";
 
 
